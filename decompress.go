@@ -135,7 +135,7 @@ func (l *legacyDecomp) Decompress() ([]byte, error) {
 		// legacy versions of autoit
 		out, err := l.LegacyDecompress()
 		if err != nil {
-			// latest version of autoit
+			// latest Version of autoit
 			jb0x := NewJB01Decompressor(tmpBuf, l.decompressedSize)
 			return jb0x.Decompress()
 		} else {
