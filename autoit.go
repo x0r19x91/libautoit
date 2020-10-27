@@ -2,7 +2,7 @@ package libautoit
 
 import (
 	"bytes"
-	"libautoit/lexer"
+	"github.com/x0r19x91/libautoit/lexer"
 	"log"
 	"strings"
 	"time"

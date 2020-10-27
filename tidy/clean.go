@@ -5,7 +5,7 @@ package tidy
 //
 
 import (
-	"libautoit/lexer"
+	"github.com/x0r19x91/libautoit/lexer"
 	"strings"
 )
 

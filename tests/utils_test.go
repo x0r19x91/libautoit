@@ -2,9 +2,9 @@ package tests
 
 import (
     "bytes"
+    "github.com/x0r19x91/libautoit"
+    "github.com/x0r19x91/libautoit/tidy"
     "io/ioutil"
-    "libautoit"
-    "libautoit/tidy"
     "os"
     "path/filepath"
     "strings"
