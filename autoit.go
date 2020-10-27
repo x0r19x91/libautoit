@@ -95,7 +95,7 @@ func GetScripts(data []byte) (*AutoItFile, error) {
     }
     for start, end := range possibleScripts {
         script := data[start:end]
-        res, err := unpackScript(script, isLegacy, file.Version)
+        res, err := unpackResources(script, isLegacy, file.Version)
         if err != nil {
             return file, err
         }
@@ -105,7 +105,7 @@ func GetScripts(data []byte) (*AutoItFile, error) {
     return file, nil
 }
 
-func unpackScript(script []byte, bLegacy bool, ver AutoItVersion) ([]*AutoItResource, error) {
+func unpackResources(script []byte, bLegacy bool, ver AutoItVersion) ([]*AutoItResource, error) {
     var iKeys IKeySet
     if ver == EA06 {
         iKeys = NewEA06()
