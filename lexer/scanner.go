@@ -12,6 +12,7 @@ type TokenType int
 
 type ITokenizer interface {
 	NextToken() *Token
+	NumberOfLines() int
 }
 
 const (
@@ -132,6 +133,10 @@ type Lexer struct {
 	mark       int // trackback
 	state      int
 	fieldName  string
+}
+
+func (lex *Lexer) NumberOfLines() int {
+	return lex.nLines
 }
 
 func NewLexer(inStream []byte) ITokenizer {
