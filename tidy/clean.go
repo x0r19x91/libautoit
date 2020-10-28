@@ -281,14 +281,15 @@ func (pp *indentInfo) Tidy() string {
         }
         if pp.currToken.TokType == lexer.UserFunction ||
             pp.currToken.TokType == lexer.StdFunction {
+            ttok := pp.currToken
+            if (pp.identCase != AllUpper) &&
+                ttok.TokType == lexer.UserFunction &&
+                strings.ToUpper(ttok.Value) == ttok.Value {
+                ttok.Value = strings.ToLower(ttok.Value)
+            }
             if pp.iStateFuncCmt == 1 && pp.fnEndCmt {
                 pp.currFunc = pp.currToken.Value
                 pp.iStateFuncCmt = 2
-            }
-            ttok := pp.currToken
-            if ttok.TokType == lexer.UserFunction &&
-                strings.ToUpper(ttok.Value) == ttok.Value {
-                ttok.Value = strings.ToLower(ttok.Value)
             }
         }
         pp.buf += pp.currToken.Value
