@@ -209,9 +209,10 @@ func (pp *indentInfo) Tidy() string {
         }
         if !strings.Contains(pp.buf, "Const") &&
             !strings.Contains(pp.buf, "Enum") {
-            if pp.currToken.TokType == lexer.Identifier {
-                if strings.ToUpper(pp.currToken.Value) == pp.currToken.Value {
-                    pp.currToken.Value = strings.ToLower(pp.currToken.Value)
+            tt := pp.currToken
+            if tt.TokType == lexer.Identifier {
+                if strings.ToUpper(tt.Value) == tt.Value {
+                    tt.Value = strings.ToLower(tt.Value)
                 }
             }
         } else {
@@ -283,6 +284,11 @@ func (pp *indentInfo) Tidy() string {
             if pp.iStateFuncCmt == 1 && pp.fnEndCmt {
                 pp.currFunc = pp.currToken.Value
                 pp.iStateFuncCmt = 2
+            }
+            ttok := pp.currToken
+            if ttok.TokType == lexer.UserFunction &&
+                strings.ToUpper(ttok.Value) == ttok.Value {
+                ttok.Value = strings.ToLower(ttok.Value)
             }
         }
         pp.buf += pp.currToken.Value
