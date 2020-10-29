@@ -12,8 +12,17 @@ const (
 	Au3Initialized AutoItState = iota
 	Au3Decompressed
 	Au3Decompiled
-	Au3Indented
 )
+
+func (st AutoItState) String() string {
+	if st == Au3Initialized {
+		return "Extracted"
+	} else if st == Au3Decompressed {
+		return "Decompressed"
+	} else {
+		return "Decompiled"
+	}
+}
 
 type AutoItVersion int
 
