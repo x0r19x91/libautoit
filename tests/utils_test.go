@@ -12,7 +12,7 @@ import (
 )
 
 func TestGetScripts(t *testing.T) {
-    file := `C:\Users\x0r19x91\Desktop\libautoit\tests\Build.exe`
+    file := `Clock.exe`
     data, err := ioutil.ReadFile(file)
     if err != nil {
         t.Error(err)
