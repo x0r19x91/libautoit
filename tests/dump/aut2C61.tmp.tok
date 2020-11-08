@@ -1,0 +1,5 @@
+Local $fuck = "hi ""world"" of"
+Local $fuck = "hi ""world"" of"
+Local $fuck = "hi 'world' of"
+Local $fuck = "hi ""world"" of"
+Local $fuck = "hi 'hiiii' world"

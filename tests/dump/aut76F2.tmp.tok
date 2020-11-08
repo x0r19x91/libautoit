@@ -1,0 +1,3238 @@
+Global Const $OPT_COORDSRELATIVE = 0x0
+Global Const $OPT_COORDSABSOLUTE = 0x1
+Global Const $OPT_COORDSCLIENT = 0x2
+Global Const $OPT_ERRORSILENT = 0x0
+Global Const $OPT_ERRORFATAL = 0x1
+Global Const $OPT_CAPSNOSTORE = 0x0
+Global Const $OPT_CAPSSTORE = 0x1
+Global Const $OPT_MATCHSTART = 0x1
+Global Const $OPT_MATCHANY = 0x2
+Global Const $OPT_MATCHEXACT = 0x3
+Global Const $OPT_MATCHADVANCED = 0x4
+Global Const $CCS_TOP = 0x1
+Global Const $CCS_NOMOVEY = 0x2
+Global Const $CCS_BOTTOM = 0x3
+Global Const $CCS_NORESIZE = 0x4
+Global Const $CCS_NOPARENTALIGN = 0x8
+Global Const $CCS_NOHILITE = 0x10
+Global Const $CCS_ADJUSTABLE = 0x20
+Global Const $CCS_NODIVIDER = 0x40
+Global Const $CCS_VERT = 0x80
+Global Const $CCS_LEFT = 0x81
+Global Const $CCS_NOMOVEX = 0x82
+Global Const $CCS_RIGHT = 0x83
+Global Const $DT_DRIVETYPE = 0x1
+Global Const $DT_SSDSTATUS = 0x2
+Global Const $DT_BUSTYPE = 0x3
+Global Const $PROXY_IE = 0x0
+Global Const $PROXY_NONE = 0x1
+Global Const $PROXY_SPECIFIED = 0x2
+Global Const $OBJID_WINDOW = 0x0
+Global Const $OBJID_TITLEBAR = -2
+Global Const $OBJID_SIZEGRIP = -7
+Global Const $OBJID_CARET = -8
+Global Const $OBJID_CURSOR = -9
+Global Const $OBJID_ALERT = -10
+Global Const $OBJID_SOUND = -11
+Global Const $DLG_CENTERONTOP = 0x0
+Global Const $DLG_NOTITLE = 0x1
+Global Const $DLG_NOTONTOP = 0x2
+Global Const $DLG_TEXTLEFT = 0x4
+Global Const $DLG_TEXTRIGHT = 0x8
+Global Const $DLG_MOVEABLE = 0x10
+Global Const $DLG_TEXTVCENTER = 0x20
+Global Const $IDC_UNKNOWN = 0x0
+Global Const $IDC_APPSTARTING = 0x1
+Global Const $IDC_ARROW = 0x2
+Global Const $IDC_CROSS = 0x3
+Global Const $IDC_HAND = 0x7f89
+Global Const $IDC_HELP = 0x4
+Global Const $IDC_IBEAM = 0x5
+Global Const $IDC_ICON = 0x6
+Global Const $IDC_NO = 0x7
+Global Const $IDC_SIZE = 0x8
+Global Const $IDC_SIZEALL = 0x9
+Global Const $IDC_SIZENESW = 0xa
+Global Const $IDC_SIZENS = 0xb
+Global Const $IDC_SIZENWSE = 0xc
+Global Const $IDC_SIZEWE = 0xd
+Global Const $IDC_UPARROW = 0xe
+Global Const $IDC_WAIT = 0xf
+Global Const $IDI_APPLICATION = 0x7f00
+Global Const $IDI_ASTERISK = 0x7f04
+Global Const $IDI_EXCLAMATION = 0x7f03
+Global Const $IDI_HAND = 0x7f01
+Global Const $IDI_QUESTION = 0x7f02
+Global Const $IDI_WINLOGO = 0x7f05
+Global Const $IDI_SHIELD = 0x7f06
+Global Const $IDI_ERROR = $IDI_HAND
+Global Const $IDI_INFORMATION = $IDI_ASTERISK
+Global Const $IDI_WARNING = $IDI_EXCLAMATION
+Global Const $SD_LOGOFF = 0x0
+Global Const $SD_SHUTDOWN = 0x1
+Global Const $SD_REBOOT = 0x2
+Global Const $SD_FORCE = 0x4
+Global Const $SD_POWERDOWN = 0x8
+Global Const $SD_FORCEHUNG = 0x10
+Global Const $SD_STANDBY = 0x20
+Global Const $SD_HIBERNATE = 0x40
+Global Const $STDIN_CHILD = 0x1
+Global Const $STDOUT_CHILD = 0x2
+Global Const $STDERR_CHILD = 0x4
+Global Const $STDERR_MERGED = 0x8
+Global Const $STDIO_INHERIT_PARENT = 0x10
+Global Const $RUN_CREATE_NEW_CONSOLE = 0x10000
+Global Const $UBOUND_DIMENSIONS = 0x0
+Global Const $UBOUND_ROWS = 0x1
+Global Const $UBOUND_COLUMNS = 0x2
+Global Const $MOUSEEVENTF_ABSOLUTE = 0x8000
+Global Const $MOUSEEVENTF_MOVE = 0x1
+Global Const $MOUSEEVENTF_LEFTDOWN = 0x2
+Global Const $MOUSEEVENTF_LEFTUP = 0x4
+Global Const $MOUSEEVENTF_RIGHTDOWN = 0x8
+Global Const $MOUSEEVENTF_RIGHTUP = 0x10
+Global Const $MOUSEEVENTF_MIDDLEDOWN = 0x20
+Global Const $MOUSEEVENTF_MIDDLEUP = 0x40
+Global Const $MOUSEEVENTF_WHEEL = 0x800
+Global Const $MOUSEEVENTF_XDOWN = 0x80
+Global Const $MOUSEEVENTF_XUP = 0x100
+Global Const $REG_NONE = 0x0
+Global Const $REG_SZ = 0x1
+Global Const $REG_EXPAND_SZ = 0x2
+Global Const $REG_BINARY = 0x3
+Global Const $REG_DWORD = 0x4
+Global Const $REG_DWORD_LITTLE_ENDIAN = 0x4
+Global Const $REG_DWORD_BIG_ENDIAN = 0x5
+Global Const $REG_LINK = 0x6
+Global Const $REG_MULTI_SZ = 0x7
+Global Const $REG_RESOURCE_LIST = 0x8
+Global Const $REG_FULL_RESOURCE_DESCRIPTOR = 0x9
+Global Const $REG_RESOURCE_REQUIREMENTS_LIST = 0xa
+Global Const $REG_QWORD = 0xb
+Global Const $REG_QWORD_LITTLE_ENDIAN = 0xb
+Global Const $HWND_BOTTOM = 0x1
+Global Const $HWND_NOTOPMOST = + -2
+Global Const $HWND_TOP = 0x0
+Global Const $HWND_TOPMOST = + -1
+Global Const $SWP_NOSIZE = 0x1
+Global Const $SWP_NOMOVE = 0x2
+Global Const $SWP_NOZORDER = 0x4
+Global Const $SWP_NOREDRAW = 0x8
+Global Const $SWP_NOACTIVATE = 0x10
+Global Const $SWP_FRAMECHANGED = 0x20
+Global Const $SWP_DRAWFRAME = 0x20
+Global Const $SWP_SHOWWINDOW = 0x40
+Global Const $SWP_HIDEWINDOW = 0x80
+Global Const $SWP_NOCOPYBITS = 0x100
+Global Const $SWP_NOOWNERZORDER = 0x200
+Global Const $SWP_NOREPOSITION = 0x200
+Global Const $SWP_NOSENDCHANGING = 0x400
+Global Const $SWP_DEFERERASE = 0x2000
+Global Const $SWP_ASYNCWINDOWPOS = 0x4000
+Global Const $KEYWORD_DEFAULT = 0x1
+Global Const $KEYWORD_NULL = 0x2
+Global Const $DECLARED_LOCAL = + -1
+Global Const $DECLARED_UNKNOWN = 0x0
+Global Const $DECLARED_GLOBAL = 0x1
+Global Const $ASSIGN_CREATE = 0x0
+Global Const $ASSIGN_FORCELOCAL = 0x1
+Global Const $ASSIGN_FORCEGLOBAL = 0x2
+Global Const $ASSIGN_EXISTFAIL = 0x4
+Global Const $BI_ENABLE = 0x0
+Global Const $BI_DISABLE = 0x1
+Global Const $BREAK_ENABLE = 0x1
+Global Const $BREAK_DISABLE = 0x0
+Global Const $CDTRAY_OPEN = "open"
+Global Const $CDTRAY_CLOSED = "closed"
+Global Const $SEND_DEFAULT = 0x0
+Global Const $SEND_RAW = 0x1
+Global Const $DIR_DEFAULT = 0x0
+Global Const $DIR_EXTENDED = 0x1
+Global Const $DIR_NORECURSE = 0x2
+Global Const $DIR_REMOVE = 0x1
+Global Const $DT_ALL = "ALL"
+Global Const $DT_CDROM = "CDROM"
+Global Const $DT_REMOVABLE = "REMOVABLE"
+Global Const $DT_FIXED = "FIXED"
+Global Const $DT_NETWORK = "NETWORK"
+Global Const $DT_RAMDISK = "RAMDISK"
+Global Const $DT_UNKNOWN = "UNKNOWN"
+Global Const $DT_UNDEFINED = 0x1
+Global Const $DT_FAT = "FAT"
+Global Const $DT_FAT32 = "FAT32"
+Global Const $DT_EXFAT = "exFAT"
+Global Const $DT_NTFS = "NTFS"
+Global Const $DT_NWFS = "NWFS"
+Global Const $DT_CDFS = "CDFS"
+Global Const $DT_UDF = "UDF"
+Global Const $DMA_DEFAULT = 0x0
+Global Const $DMA_PERSISTENT = 0x1
+Global Const $DMA_AUTHENTICATION = 0x8
+Global Const $DS_UNKNOWN = "UNKNOWN"
+Global Const $DS_READY = "READY"
+Global Const $DS_NOTREADY = "NOTREADY"
+Global Const $DS_INVALID = "INVALID"
+Global Const $MOUSE_CLICK_LEFT = "left"
+Global Const $MOUSE_CLICK_RIGHT = "right"
+Global Const $MOUSE_CLICK_MIDDLE = "middle"
+Global Const $MOUSE_CLICK_MAIN = "main"
+Global Const $MOUSE_CLICK_MENU = "menu"
+Global Const $MOUSE_CLICK_PRIMARY = "primary"
+Global Const $MOUSE_CLICK_SECONDARY = "secondary"
+Global Const $MOUSE_WHEEL_UP = "up"
+Global Const $MOUSE_WHEEL_DOWN = "down"
+Global Const $NUMBER_AUTO = 0x0
+Global Const $NUMBER_32BIT = 0x1
+Global Const $NUMBER_64BIT = 0x2
+Global Const $NUMBER_DOUBLE = 0x3
+Global Const $OBJ_NAME = 0x1
+Global Const $OBJ_STRING = 0x2
+Global Const $OBJ_PROGID = 0x3
+Global Const $OBJ_FILE = 0x4
+Global Const $OBJ_MODULE = 0x5
+Global Const $OBJ_CLSID = 0x6
+Global Const $OBJ_IID = 0x7
+Global Const $EXITCLOSE_NORMAL = 0x0
+Global Const $EXITCLOSE_BYEXIT = 0x1
+Global Const $EXITCLOSE_BYCLICK = 0x2
+Global Const $EXITCLOSE_BYLOGOFF = 0x3
+Global Const $EXITCLOSE_BYSHUTDOWN = 0x4
+Global Const $PROCESS_STATS_MEMORY = 0x0
+Global Const $PROCESS_STATS_IO = 0x1
+Global Const $PROCESS_LOW = 0x0
+Global Const $PROCESS_BELOWNORMAL = 0x1
+Global Const $PROCESS_NORMAL = 0x2
+Global Const $PROCESS_ABOVENORMAL = 0x3
+Global Const $PROCESS_HIGH = 0x4
+Global Const $PROCESS_REALTIME = 0x5
+Global Const $RUN_LOGON_NOPROFILE = 0x0
+Global Const $RUN_LOGON_PROFILE = 0x1
+Global Const $RUN_LOGON_NETWORK = 0x2
+Global Const $RUN_LOGON_INHERIT = 0x4
+Global Const $SOUND_NOWAIT = 0x0
+Global Const $SOUND_WAIT = 0x1
+Global Const $SHEX_OPEN = "open"
+Global Const $SHEX_EDIT = "edit"
+Global Const $SHEX_PRINT = "print"
+Global Const $SHEX_PROPERTIES = "properties"
+Global Const $TCP_DATA_DEFAULT = 0x0
+Global Const $TCP_DATA_BINARY = 0x1
+Global Const $UDP_OPEN_DEFAULT = 0x0
+Global Const $UDP_OPEN_BROADCAST = 0x1
+Global Const $UDP_DATA_DEFAULT = 0x0
+Global Const $UDP_DATA_BINARY = 0x1
+Global Const $UDP_DATA_ARRAY = 0x2
+Global Const $TIP_NOICON = 0x0
+Global Const $TIP_INFOICON = 0x1
+Global Const $TIP_WARNINGICON = 0x2
+Global Const $TIP_ERRORICON = 0x3
+Global Const $TIP_BALLOON = 0x1
+Global Const $TIP_CENTER = 0x2
+Global Const $TIP_FORCEVISIBLE = 0x4
+Global Const $WINDOWS_NOONTOP = 0x0
+Global Const $WINDOWS_ONTOP = 0x1
+Global Const $WIN_STATE_EXISTS = 0x1
+Global Const $WIN_STATE_VISIBLE = 0x2
+Global Const $WIN_STATE_ENABLED = 0x4
+Global Const $WIN_STATE_ACTIVE = 0x8
+Global Const $WIN_STATE_MINIMIZED = 0x10
+Global Const $WIN_STATE_MAXIMIZED = 0x20
+Global Const $FC_NOOVERWRITE = 0x0
+Global Const $FC_OVERWRITE = 0x1
+Global Const $FC_CREATEPATH = 0x8
+Global Const $FT_MODIFIED = 0x0
+Global Const $FT_CREATED = 0x1
+Global Const $FT_ACCESSED = 0x2
+Global Const $FT_ARRAY = 0x0
+Global Const $FT_STRING = 0x1
+Global Const $FSF_CREATEBUTTON = 0x1
+Global Const $FSF_NEWDIALOG = 0x2
+Global Const $FSF_EDITCONTROL = 0x4
+Global Const $FT_NONRECURSIVE = 0x0
+Global Const $FT_RECURSIVE = 0x1
+Global Const $FO_READ = 0x0
+Global Const $FO_APPEND = 0x1
+Global Const $FO_OVERWRITE = 0x2
+Global Const $FO_CREATEPATH = 0x8
+Global Const $FO_BINARY = 0x10
+Global Const $FO_UNICODE = 0x20
+Global Const $FO_UTF16_LE = 0x20
+Global Const $FO_UTF16_BE = 0x40
+Global Const $FO_UTF8 = 0x80
+Global Const $FO_UTF8_NOBOM = 0x100
+Global Const $FO_ANSI = 0x200
+Global Const $FO_UTF16_LE_NOBOM = 0x400
+Global Const $FO_UTF16_BE_NOBOM = 0x800
+Global Const $FO_UTF8_FULL = 0x4000
+Global Const $FO_FULLFILE_DETECT = 0x4000
+Global Const $EOF = + -1
+Global Const $FD_FILEMUSTEXIST = 0x1
+Global Const $FD_PATHMUSTEXIST = 0x2
+Global Const $FD_MULTISELECT = 0x4
+Global Const $FD_PROMPTCREATENEW = 0x8
+Global Const $FD_PROMPTOVERWRITE = 0x10
+Global Const $CREATE_NEW = 0x1
+Global Const $CREATE_ALWAYS = 0x2
+Global Const $OPEN_EXISTING = 0x3
+Global Const $OPEN_ALWAYS = 0x4
+Global Const $TRUNCATE_EXISTING = 0x5
+Global Const $INVALID_SET_FILE_POINTER = + -1
+Global Const $FILE_BEGIN = 0x0
+Global Const $FILE_CURRENT = 0x1
+Global Const $FILE_END = 0x2
+Global Const $FILE_ATTRIBUTE_READONLY = 0x1
+Global Const $FILE_ATTRIBUTE_HIDDEN = 0x2
+Global Const $FILE_ATTRIBUTE_SYSTEM = 0x4
+Global Const $FILE_ATTRIBUTE_DIRECTORY = 0x10
+Global Const $FILE_ATTRIBUTE_ARCHIVE = 0x20
+Global Const $FILE_ATTRIBUTE_DEVICE = 0x40
+Global Const $FILE_ATTRIBUTE_NORMAL = 0x80
+Global Const $FILE_ATTRIBUTE_TEMPORARY = 0x100
+Global Const $FILE_ATTRIBUTE_SPARSE_FILE = 0x200
+Global Const $FILE_ATTRIBUTE_REPARSE_POINT = 0x400
+Global Const $FILE_ATTRIBUTE_COMPRESSED = 0x800
+Global Const $FILE_ATTRIBUTE_OFFLINE = 0x1000
+Global Const $FILE_ATTRIBUTE_NOT_CONTENT_INDEXED = 0x2000
+Global Const $FILE_ATTRIBUTE_ENCRYPTED = 0x4000
+Global Const $FILE_SHARE_READ = 0x1
+Global Const $FILE_SHARE_WRITE = 0x2
+Global Const $FILE_SHARE_DELETE = 0x4
+Global Const $FILE_SHARE_READWRITE = BitOR($FILE_SHARE_READ, $FILE_SHARE_WRITE)
+Global Const $FILE_SHARE_ANY = BitOR($FILE_SHARE_READ, $FILE_SHARE_WRITE, $FILE_SHARE_DELETE)
+Global Const $GENERIC_ALL = 0x10000000
+Global Const $GENERIC_EXECUTE = 0x20000000
+Global Const $GENERIC_WRITE = 0x40000000
+Global Const $GENERIC_READ = -2147483648
+Global Const $GENERIC_READWRITE = BitOR($GENERIC_READ, $GENERIC_WRITE)
+Global Const $FILE_ENCODING_UTF16LE = 0x20
+Global Const $FE_ENTIRE_UTF8 = 0x1
+Global Const $FE_PARTIALFIRST_UTF8 = 0x2
+Global Const $FN_FULLPATH = 0x0
+Global Const $FN_RELATIVEPATH = 0x1
+Global Const $FV_COMMENTS = "Comments"
+Global Const $FV_COMPANYNAME = "CompanyName"
+Global Const $FV_FILEDESCRIPTION = "FileDescription"
+Global Const $FV_FILEVERSION = "FileVersion"
+Global Const $FV_INTERNALNAME = "InternalName"
+Global Const $FV_LEGALCOPYRIGHT = "LegalCopyright"
+Global Const $FV_LEGALTRADEMARKS = "LegalTrademarks"
+Global Const $FV_ORIGINALFILENAME = "OriginalFilename"
+Global Const $FV_PRODUCTNAME = "ProductName"
+Global Const $FV_PRODUCTVERSION = "ProductVersion"
+Global Const $FV_PRIVATEBUILD = "PrivateBuild"
+Global Const $FV_SPECIALBUILD = "SpecialBuild"
+Global Const $FRTA_NOCOUNT = 0x0
+Global Const $FRTA_COUNT = 0x1
+Global Const $FRTA_INTARRAYS = 0x2
+Global Const $FRTA_ENTIRESPLIT = 0x4
+Global Const $FLTA_FILESFOLDERS = 0x0
+Global Const $FLTA_FILES = 0x1
+Global Const $FLTA_FOLDERS = 0x2
+Global Const $FLTAR_FILESFOLDERS = 0x0
+Global Const $FLTAR_FILES = 0x1
+Global Const $FLTAR_FOLDERS = 0x2
+Global Const $FLTAR_NOHIDDEN = 0x4
+Global Const $FLTAR_NOSYSTEM = 0x8
+Global Const $FLTAR_NOLINK = 0x10
+Global Const $FLTAR_NORECUR = 0x0
+Global Const $FLTAR_RECUR = 0x1
+Global Const $FLTAR_NOSORT = 0x0
+Global Const $FLTAR_SORT = 0x1
+Global Const $FLTAR_FASTSORT = 0x2
+Global Const $FLTAR_NOPATH = 0x0
+Global Const $FLTAR_RELPATH = 0x1
+Global Const $FLTAR_FULLPATH = 0x2
+Global Const $PATH_ORIGINAL = 0x0
+Global Const $PATH_DRIVE = 0x1
+Global Const $PATH_DIRECTORY = 0x2
+Global Const $PATH_FILENAME = 0x3
+Global Const $PATH_EXTENSION = 0x4
+Global Const $MB_OK = 0x0
+Global Const $MB_OKCANCEL = 0x1
+Global Const $MB_ABORTRETRYIGNORE = 0x2
+Global Const $MB_YESNOCANCEL = 0x3
+Global Const $MB_YESNO = 0x4
+Global Const $MB_RETRYCANCEL = 0x5
+Global Const $MB_CANCELTRYCONTINUE = 0x6
+Global Const $MB_HELP = 0x4000
+Global Const $MB_ICONSTOP = 0x10
+Global Const $MB_ICONERROR = 0x10
+Global Const $MB_ICONHAND = 0x10
+Global Const $MB_ICONQUESTION = 0x20
+Global Const $MB_ICONEXCLAMATION = 0x30
+Global Const $MB_ICONWARNING = 0x30
+Global Const $MB_ICONINFORMATION = 0x40
+Global Const $MB_ICONASTERISK = 0x40
+Global Const $MB_USERICON = 0x80
+Global Const $MB_DEFBUTTON1 = 0x0
+Global Const $MB_DEFBUTTON2 = 0x100
+Global Const $MB_DEFBUTTON3 = 0x200
+Global Const $MB_DEFBUTTON4 = 0x300
+Global Const $MB_APPLMODAL = 0x0
+Global Const $MB_SYSTEMMODAL = 0x1000
+Global Const $MB_TASKMODAL = 0x2000
+Global Const $MB_DEFAULT_DESKTOP_ONLY = 0x20000
+Global Const $MB_RIGHT = 0x80000
+Global Const $MB_RTLREADING = 0x100000
+Global Const $MB_SETFOREGROUND = 0x10000
+Global Const $MB_TOPMOST = 0x40000
+Global Const $MB_SERVICE_NOTIFICATION = 0x200000
+Global Const $MB_RIGHTJUSTIFIED = $MB_RIGHT
+Global Const $IDTIMEOUT = + -1
+Global Const $IDOK = 0x1
+Global Const $IDCANCEL = 0x2
+Global Const $IDABORT = 0x3
+Global Const $IDRETRY = 0x4
+Global Const $IDIGNORE = 0x5
+Global Const $IDYES = 0x6
+Global Const $IDNO = 0x7
+Global Const $IDCLOSE = 0x8
+Global Const $IDHELP = 0x9
+Global Const $IDTRYAGAIN = 0xa
+Global Const $IDCONTINUE = 0xb
+Global Const $STR_NOCASESENSE = 0x0
+Global Const $STR_CASESENSE = 0x1
+Global Const $STR_NOCASESENSEBASIC = 0x2
+Global Const $STR_STRIPLEADING = 0x1
+Global Const $STR_STRIPTRAILING = 0x2
+Global Const $STR_STRIPSPACES = 0x4
+Global Const $STR_STRIPALL = 0x8
+Global Const $STR_CHRSPLIT = 0x0
+Global Const $STR_ENTIRESPLIT = 0x1
+Global Const $STR_NOCOUNT = 0x2
+Global Const $STR_REGEXPMATCH = 0x0
+Global Const $STR_REGEXPARRAYMATCH = 0x1
+Global Const $STR_REGEXPARRAYFULLMATCH = 0x2
+Global Const $STR_REGEXPARRAYGLOBALMATCH = 0x3
+Global Const $STR_REGEXPARRAYGLOBALFULLMATCH = 0x4
+Global Const $STR_ENDISSTART = 0x0
+Global Const $STR_ENDNOTSTART = 0x1
+Global Const $SB_ANSI = 0x1
+Global Const $SB_UTF16LE = 0x2
+Global Const $SB_UTF16BE = 0x3
+Global Const $SB_UTF8 = 0x4
+Global Const $SE_UTF16 = 0x0
+Global Const $SE_ANSI = 0x1
+Global Const $SE_UTF8 = 0x2
+Global Const $STR_UTF16 = 0x0
+Global Const $STR_UCS2 = 0x1
+#Region Global Variables and Constants
+    Global Const $FORMAT_MESSAGE_ALLOCATE_BUFFER = 0x100
+    Global Const $FORMAT_MESSAGE_IGNORE_INSERTS = 0x200
+    Global Const $FORMAT_MESSAGE_FROM_STRING = 0x400
+    Global Const $FORMAT_MESSAGE_FROM_HMODULE = 0x800
+    Global Const $FORMAT_MESSAGE_FROM_SYSTEM = 0x1000
+    Global Const $FORMAT_MESSAGE_ARGUMENT_ARRAY = 0x2000
+#EndRegion Global Variables and Constants
+Func _WinAPI_Beep($ifreq = 0x1f4, $iduration = 0x3e8)
+    Local $aresult = DllCall("kernel32.dll", "bool", "Beep", "dword", $ifreq, "dword", $iduration)
+    If @error Then Return SetError(@error, @extended, False)
+    Return $aresult[0x0]
+EndFunc    ; -> _WinAPI_Beep
+
+Func _WinAPI_FormatMessage($iflags, $psource, $imessageid, $ilanguageid, ByRef $pbuffer, $isize, $varguments)
+    Local $sbuffertype = "struct*"
+    If IsString($pbuffer) Then $sbuffertype = "wstr"
+    Local $aresult = DllCall("kernel32.dll", "dword", "FormatMessageW", "dword", $iflags, "struct*", $psource, "dword", $imessageid, "dword", $ilanguageid, $sbuffertype, $pbuffer, "dword", $isize, "ptr", $varguments)
+    If @error Or Not $aresult[0x0] Then Return SetError(@error + 0xa, @extended, 0x0)
+    If $sbuffertype = "wstr" Then $pbuffer = $aresult[0x5]
+    Return $aresult[0x0]
+EndFunc    ; -> _WinAPI_FormatMessage
+
+Func _WinAPI_GetErrorMessage($icode, $ilanguage = 0x0, Const $_ICURRENTERROR = @error, Const $_ICURRENTEXTENDED = @extended)
+    Local $aret = DllCall("kernel32.dll", "dword", "FormatMessageW", "dword", 0x1000, "ptr", 0x0, "dword", $icode, "dword", $ilanguage, "wstr", '', "dword", 0x1000, "ptr", 0x0)
+    If @error Or Not $aret[0x0] Then Return SetError(@error, @extended, '')
+    Return SetError($_ICURRENTERROR, $_ICURRENTEXTENDED, StringRegExpReplace($aret[0x5], "[" & @LF & "," & @CR & "]*\\Z", ''))
+EndFunc    ; -> _WinAPI_GetErrorMessage
+
+Func _WinAPI_GetLastError(Const $_ICURRENTERROR = @error, Const $_ICURRENTEXTENDED = @extended)
+    Local $aresult = DllCall("kernel32.dll", "dword", "GetLastError")
+    Return SetError($_ICURRENTERROR, $_ICURRENTEXTENDED, $aresult[0x0])
+EndFunc    ; -> _WinAPI_GetLastError
+
+Func _WinAPI_GetLastErrorMessage(Const $_ICURRENTERROR = @error, Const $_ICURRENTEXTENDED = @extended)
+    Local $ilasterror = _WinAPI_GetLastError()
+    Local $tbufferptr = DllStructCreate("ptr")
+    Local $ncount = _WinAPI_FormatMessage(BitOR($FORMAT_MESSAGE_ALLOCATE_BUFFER, $FORMAT_MESSAGE_FROM_SYSTEM), 0x0, $ilasterror, 0x0, $tbufferptr, 0x0, 0x0)
+    If @error Then Return SetError(- @error, @extended, '')
+    Local $stext = ''
+    Local $pbuffer = DllStructGetData($tbufferptr, 0x1)
+    If $pbuffer Then
+        If $ncount > 0x0 Then
+            Local $tbuffer = DllStructCreate("wchar[" & ($ncount + 0x1) & "]", $pbuffer)
+            $stext = DllStructGetData($tbuffer, 0x1)
+            If StringRight($stext, 0x2) = @CRLF Then $stext = StringTrimRight($stext, 0x2)
+        EndIf
+        DllCall("kernel32.dll", "handle", "LocalFree", "handle", $pbuffer)
+    EndIf
+    Return SetError($_ICURRENTERROR, $_ICURRENTEXTENDED, $stext)
+EndFunc    ; -> _WinAPI_GetLastErrorMessage
+
+Func _WinAPI_MessageBeep($itype = 0x1)
+    Local $isound
+    Switch $itype
+    Case 0x1
+        $isound = 0x0
+    Case 0x2
+        $isound = 0x10
+    Case 0x3
+        $isound = 0x20
+    Case 0x4
+        $isound = 0x30
+    Case 0x5
+        $isound = 0x40
+    Case Else
+        $isound = + -1
+    EndSwitch
+    Local $aresult = DllCall("user32.dll", "bool", "MessageBeep", "uint", $isound)
+    If @error Then Return SetError(@error, @extended, False)
+    Return $aresult[0x0]
+EndFunc    ; -> _WinAPI_MessageBeep
+
+Func _WinAPI_MsgBox($iflags, $stitle, $stext)
+    BlockInput(0x0)
+    MsgBox($iflags, $stitle, $stext & "      ")
+EndFunc    ; -> _WinAPI_MsgBox
+
+Func _WinAPI_SetLastError($ierrorcode, Const $_ICURRENTERROR = @error, Const $_ICURRENTEXTENDED = @extended)
+    DllCall("kernel32.dll", "none", "SetLastError", "dword", $ierrorcode)
+    Return SetError($_ICURRENTERROR, $_ICURRENTEXTENDED, Null)
+EndFunc    ; -> _WinAPI_SetLastError
+
+Func _WinAPI_ShowError($stext, $bexit = True)
+    BlockInput(0x0)
+    MsgBox($MB_SYSTEMMODAL, "Error", $stext & "      ")
+    If $bexit Then Exit
+EndFunc    ; -> _WinAPI_ShowError
+
+Func _WinAPI_ShowLastError($stext = '', $babort = False, $ilanguage = 0x0, Const $_ICURRENTERROR = @error, Const $_ICURRENTEXTENDED = @extended)
+    Local $serror
+    Local $ilasterror = _WinAPI_GetLastError()
+    While 0x1
+        $serror = _WinAPI_GetErrorMessage($ilasterror, $ilanguage)
+        If @error And $ilanguage Then
+            $ilanguage = 0x0
+        Else
+            ExitLoop
+        EndIf
+    WEnd
+    If StringStripWS($stext, $STR_STRIPLEADING + $STR_STRIPTRAILING) Then
+        $stext &= @CRLF & @CRLF
+    Else
+        $stext = ''
+    EndIf
+    _WinAPI_MsgBox(BitOR(0x40000, BitShift(0x10, + -2 * (Not $ilasterror))), $ilasterror, $stext & $serror)
+    If $ilasterror Then
+        _WinAPI_SetLastError($ilasterror)
+        If $babort Then
+            Exit $ilasterror
+        EndIf
+    EndIf
+    Return SetError($_ICURRENTERROR, $_ICURRENTEXTENDED, 0x1)
+EndFunc    ; -> _WinAPI_ShowLastError
+
+Func _WinAPI_ShowMsg($stext)
+    _WinAPI_MsgBox($MB_SYSTEMMODAL, "Information", $stext)
+EndFunc    ; -> _WinAPI_ShowMsg
+
+Func __COMErrorFormating(ByRef $ocomerror, $sprefix = @TAB)
+    Local Const $STR_STRIPTRAILING = 0x2
+    Local $serror = "COM Error encountered in " & @ScriptName & " (" & $ocomerror.Scriptline & ") :" & @CRLF & $sprefix & "Number        " & @TAB & "= 0x" & Hex($ocomerror.Number, 0x8) & " (" & $ocomerror.Number & ")" & @CRLF & $sprefix & "WinDescription" & @TAB & "= " & StringStripWS($ocomerror.WinDescription, $STR_STRIPTRAILING) & @CRLF & $sprefix & "Description   " & @TAB & "= " & StringStripWS($ocomerror.Description, $STR_STRIPTRAILING) & @CRLF & $sprefix & "Source        " & @TAB & "= " & $ocomerror.Source & @CRLF & $sprefix & "HelpFile      " & @TAB & "= " & $ocomerror.HelpFile & @CRLF & $sprefix & "HelpContext   " & @TAB & "= " & $ocomerror.HelpContext & @CRLF & $sprefix & "LastDllError  " & @TAB & "= " & $ocomerror.LastDllError & @CRLF & $sprefix & "Retcode       " & @TAB & "= 0x" & Hex($ocomerror.retcode)
+    Return $serror
+EndFunc    ; -> __COMErrorFormating
+
+#Region Header
+#EndRegion Header
+#Region Global Variables
+    Global $__g_iieloadwaittimeout = 0x493e0
+    Global $__g_bieau3debug = False
+    Global $__g_bieerrornotify = True
+    Global $__g_oieerrorhandler, $__g_sieusererrorhandler
+#EndRegion Global Variables
+#Region Global Constants
+    Global Const $__GAIEAU3VERSIONINFO[0x6] = ["T", 0x3, 0x0, 0x2, "20140819", "T3.0-2"]
+    Global Const $LSFW_LOCK = 0x1, $LSFW_UNLOCK = 0x2
+    Global Enum $_IESTATUS_SUCCESS = 0x0, $_IESTATUS_GENERALERROR, $_IESTATUS_COMERROR, $_IESTATUS_INVALIDDATATYPE, $_IESTATUS_INVALIDOBJECTTYPE, $_IESTATUS_INVALIDVALUE, $_IESTATUS_LOADWAITTIMEOUT, $_IESTATUS_NOMATCH, $_IESTATUS_ACCESSISDENIED, $_IESTATUS_CLIENTDISCONNECTED
+#EndRegion Global Constants
+#Region Core functions
+    Func _IECreate($surl = "about:blank", $itryattach = 0x0, $ivisible = 0x1, $iwait = 0x1, $itakefocus = 0x1)
+        If Not $ivisible Then $itakefocus = 0x0
+        If $itryattach Then
+            Local $oresult = _IEAttach($surl, "url")
+            If IsObj($oresult) Then
+                If $itakefocus Then WinActivate(HWnd($oresult.hWnd))
+                Return SetError($_IESTATUS_SUCCESS, 0x1, $oresult)
+            EndIf
+        EndIf
+        Local $imustunlock = 0x0
+        If Not $ivisible And __IELockSetForegroundWindow($LSFW_LOCK) Then $imustunlock = 0x1
+        Local $oobject = ObjCreate("InternetExplorer.Application")
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IECreate", '', "Browser Object Creation Failed")
+            If $imustunlock Then __IELockSetForegroundWindow($LSFW_UNLOCK)
+            Return SetError($_IESTATUS_GENERALERROR, 0x0, 0x0)
+        EndIf
+        $oobject.visible = $ivisible
+        If $imustunlock And Not __IELockSetForegroundWindow($LSFW_UNLOCK) Then __IEConsoleWriteError("Warning", "_IECreate", '', "Foreground Window Unlock Failed!")
+        _IENavigate($oobject, $surl, $iwait)
+        Local $ierror = @error
+        If Not $ierror And StringLeft($surl, 0x6) = "about:" Then
+            Local $odocument = $oobject.document
+            _IEAction($odocument, "focus")
+        EndIf
+        Return SetError($ierror, 0x0, $oobject)
+    EndFunc    ; -> _IECreate
+
+    Func _IECreateEmbedded()
+        Local $oobject = ObjCreate("Shell.Explorer.2")
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IECreateEmbedded", '', "WebBrowser Object Creation Failed")
+            Return SetError($_IESTATUS_GENERALERROR, 0x0, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject)
+    EndFunc    ; -> _IECreateEmbedded
+
+    Func _IENavigate(ByRef $oobject, $surl, $iwait = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IENavigate", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "documentContainer") Then
+            __IEConsoleWriteError("Error", "_IENavigate", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $oobject.navigate($surl)
+        If @error Then
+            __IEConsoleWriteError("Error", "_IENavigate", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        If $iwait Then
+            _IELoadWait($oobject)
+            Return SetError(@error, 0x0, + -1)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, + -1)
+    EndFunc    ; -> _IENavigate
+
+    Func _IEAttach($sstring, $smode = "title", $iinstance = 0x1)
+        $smode = StringLower($smode)
+        $iinstance = Int($iinstance)
+        If $iinstance < 0x1 Then
+            __IEConsoleWriteError("Error", "_IEAttach", "$_IESTATUS_InvalidValue", "$iInstance < 1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+        EndIf
+        If $smode = "embedded" Or $smode = "dialogbox" Then
+            Local $iwintitlematchmode = Opt("WinTitleMatchMode", $OPT_MATCHANY)
+            If $smode = "dialogbox" And $iinstance > 0x1 Then
+                If IsHWnd($sstring) Then
+                    $iinstance = 0x1
+                    __IEConsoleWriteError("Warning", "_IEAttach", "$_IESTATUS_GeneralError", "$iInstance > 1 invalid with HWnd and DialogBox.  Setting to 1.")
+                Else
+                    Local $awinlist = WinList($sstring, '')
+                    If $iinstance <= $awinlist[0x0][0x0] Then
+                        $sstring = $awinlist[$iinstance][0x1]
+                        $iinstance = 0x1
+                    Else
+                        __IEConsoleWriteError("Warning", "_IEAttach", "$_IESTATUS_NoMatch")
+                        Opt("WinTitleMatchMode", $iwintitlematchmode)
+                        Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+                    EndIf
+                EndIf
+            EndIf
+            Local $hcontrol = ControlGetHandle($sstring, '', "[CLASS:Internet Explorer_Server; INSTANCE:" & $iinstance & "]")
+            Local $oresult = __IEControlGetObjFromHWND($hcontrol)
+            Opt("WinTitleMatchMode", $iwintitlematchmode)
+            If IsObj($oresult) Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oresult)
+            Else
+                __IEConsoleWriteError("Warning", "_IEAttach", "$_IESTATUS_NoMatch")
+                Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+            EndIf
+        EndIf
+        Local $oshell = ObjCreate("Shell.Application")
+        Local $oshellwindows = $oshell.Windows()
+        Local $itmp = 0x1
+        Local $inotifystatus, $bisbrowser, $stmp
+        Local $bstatus
+        For $owindow In $oshellwindows
+            $bisbrowser = True
+            $bstatus = __IEInternalErrorHandlerRegister()
+            If Not $bstatus Then __IEConsoleWriteError("Warning", "_IEAttach", "Cannot register internal error handler, cannot trap COM errors", "Use _IEErrorHandlerRegister() to register a user error handler")
+            $inotifystatus = _IEErrorNotify()
+            _IEErrorNotify(False)
+            If $bisbrowser Then
+                $stmp = $owindow.type
+                If @error Then $bisbrowser = False
+            EndIf
+            If $bisbrowser Then
+                $stmp = $owindow.document.title
+                If @error Then $bisbrowser = False
+            EndIf
+            _IEErrorNotify($inotifystatus)
+            __IEInternalErrorHandlerDeRegister()
+            If $bisbrowser Then
+                Switch $smode
+                Case "title"
+                    If StringInStr($owindow.document.title, $sstring) > 0x0 Then
+                        If $iinstance = $itmp Then
+                            Return SetError($_IESTATUS_SUCCESS, 0x0, $owindow)
+                        Else
+                            $itmp += 0x1
+                        EndIf
+                    EndIf
+                Case "instance"
+                    If $iinstance = $itmp Then
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, $owindow)
+                    Else
+                        $itmp += 0x1
+                    EndIf
+                Case "windowtitle"
+                    Local $bfound = False
+                    $stmp = RegRead("HKEY_CURRENT_USER\\Software\\Microsoft\\Internet Explorer\\Main\\", "Window Title")
+                    If Not @error Then
+                        If StringInStr($owindow.document.title & " - " & $stmp, $sstring) Then $bfound = True
+                    Else
+                        If StringInStr($owindow.document.title & " - Microsoft Internet Explorer", $sstring) Then $bfound = True
+                        If StringInStr($owindow.document.title & " - Windows Internet Explorer", $sstring) Then $bfound = True
+                    EndIf
+                    If $bfound Then
+                        If $iinstance = $itmp Then
+                            Return SetError($_IESTATUS_SUCCESS, 0x0, $owindow)
+                        Else
+                            $itmp += 0x1
+                        EndIf
+                    EndIf
+                Case "url"
+                    If StringInStr($owindow.LocationURL, $sstring) > 0x0 Then
+                        If $iinstance = $itmp Then
+                            Return SetError($_IESTATUS_SUCCESS, 0x0, $owindow)
+                        Else
+                            $itmp += 0x1
+                        EndIf
+                    EndIf
+                Case "text"
+                    If StringInStr($owindow.document.body.innerText, $sstring) > 0x0 Then
+                        If $iinstance = $itmp Then
+                            Return SetError($_IESTATUS_SUCCESS, 0x0, $owindow)
+                        Else
+                            $itmp += 0x1
+                        EndIf
+                    EndIf
+                Case "html"
+                    If StringInStr($owindow.document.body.innerHTML, $sstring) > 0x0 Then
+                        If $iinstance = $itmp Then
+                            Return SetError($_IESTATUS_SUCCESS, 0x0, $owindow)
+                        Else
+                            $itmp += 0x1
+                        EndIf
+                    EndIf
+                Case "hwnd"
+                    If $iinstance > 0x1 Then
+                        $iinstance = 0x1
+                        __IEConsoleWriteError("Warning", "_IEAttach", "$_IESTATUS_GeneralError", "$iInstance > 1 invalid with HWnd.  Setting to 1.")
+                    EndIf
+                    If _IEPropertyGet($owindow, "hwnd") = $sstring Then
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, $owindow)
+                    EndIf
+                Case Else
+                    __IEConsoleWriteError("Error", "_IEAttach", "$_IESTATUS_InvalidValue", "Invalid Mode Specified")
+                    Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+                EndSwitch
+            EndIf
+        Next
+        __IEConsoleWriteError("Warning", "_IEAttach", "$_IESTATUS_NoMatch")
+        Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+    EndFunc    ; -> _IEAttach
+
+    Func _IELoadWait(ByRef $oobject, $idelay = 0x0, $itimeout = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IELoadWait", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IELoadWait", "$_IESTATUS_InvalidObjectType", ObjName($oobject))
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp, $babort = False, $ierrorstatuscode = $_IESTATUS_SUCCESS
+        Local $bstatus = __IEInternalErrorHandlerRegister()
+        If Not $bstatus Then __IEConsoleWriteError("Warning", "_IELoadWait", "Cannot register internal error handler, cannot trap COM errors", "Use _IEErrorHandlerRegister() to register a user error handler")
+        Local $inotifystatus = _IEErrorNotify()
+        _IEErrorNotify(False)
+        Sleep($idelay)
+        Local $ierror
+        Local $hieloadwaittimer = TimerInit()
+        If $itimeout = + -1 Then $itimeout = $__g_iieloadwaittimeout
+        Select
+        Case __IEIsObjType($oobject, "browser", False)
+            While Not (String($oobject.readyState) = "complete" Or $oobject.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+            While Not (String($oobject.document.readyState) = "complete" Or $oobject.document.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+        Case __IEIsObjType($oobject, "window", False)
+            While Not (String($oobject.document.readyState) = "complete" Or $oobject.document.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+            While Not (String($oobject.top.document.readyState) = "complete" Or $oobject.top.document.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+        Case __IEIsObjType($oobject, "document", False)
+            $otemp = $oobject.parentWindow
+            While Not (String($otemp.document.readyState) = "complete" Or $otemp.document.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+            While Not (String($otemp.top.document.readyState) = "complete" Or $otemp.top.document.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+        Case Else
+            $otemp = $oobject.document.parentWindow
+            While Not (String($otemp.document.readyState) = "complete" Or $otemp.document.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+            While Not (String($otemp.top.document.readyState) = "complete" Or $oobject.top.document.readyState = 0x4 Or $babort)
+                If @error Then
+                    $ierror = @error
+                    If __IEComErrorUnrecoverable($ierror) Then
+                        $ierrorstatuscode = __IEComErrorUnrecoverable($ierror)
+                        $babort = True
+                    EndIf
+                ElseIf (TimerDiff($hieloadwaittimer) > $itimeout) Then
+                    $ierrorstatuscode = $_IESTATUS_LOADWAITTIMEOUT
+                    $babort = True
+                EndIf
+                Sleep(0x64)
+            WEnd
+        EndSelect
+        _IEErrorNotify($inotifystatus)
+        __IEInternalErrorHandlerDeRegister()
+        Switch $ierrorstatuscode
+        Case $_IESTATUS_SUCCESS
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Case $_IESTATUS_LOADWAITTIMEOUT
+            __IEConsoleWriteError("Warning", "_IELoadWait", "$_IESTATUS_LoadWaitTimeout")
+            Return SetError($_IESTATUS_LOADWAITTIMEOUT, 0x3, 0x0)
+        Case $_IESTATUS_ACCESSISDENIED
+            __IEConsoleWriteError("Warning", "_IELoadWait", "$_IESTATUS_AccessIsDenied", "Cannot verify readyState.  Likely casue: cross-domain scripting security restriction. (" & $ierror & ")")
+            Return SetError($_IESTATUS_ACCESSISDENIED, 0x0, 0x0)
+        Case $_IESTATUS_CLIENTDISCONNECTED
+            __IEConsoleWriteError("Error", "_IELoadWait", "$_IESTATUS_ClientDisconnected", $ierror & ", Browser has been deleted prior to operation.")
+            Return SetError($_IESTATUS_CLIENTDISCONNECTED, 0x0, 0x0)
+        Case Else
+            __IEConsoleWriteError("Error", "_IELoadWait", "$_IESTATUS_GeneralError", "Invalid Error Status - Notify IE.au3 developer")
+            Return SetError($_IESTATUS_GENERALERROR, 0x0, 0x0)
+        EndSwitch
+    EndFunc    ; -> _IELoadWait
+
+    Func _IELoadWaitTimeout($itimeout = + -1)
+        If $itimeout = + -1 Then
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $__g_iieloadwaittimeout)
+        Else
+            $__g_iieloadwaittimeout = $itimeout
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        EndIf
+    EndFunc    ; -> _IELoadWaitTimeout
+
+#EndRegion Core functions
+#Region Frame Functions
+    Func _IEIsFrameSet(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEIsFrameSet", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If String($oobject.document.body.tagName) = "frameset" Then
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Else
+            If @error Then
+                __IEConsoleWriteError("Error", "_IEIsFrameSet", "$_IESTATUS_COMError", @error)
+                Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x0)
+        EndIf
+    EndFunc    ; -> _IEIsFrameSet
+
+    Func _IEFrameGetCollection(ByRef $oobject, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFrameGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $oobject.document.parentwindow.frames.length, $oobject.document.parentwindow.frames)
+        Case $iindex > + -1 And $iindex < $oobject.document.parentwindow.frames.length
+            Return SetError($_IESTATUS_SUCCESS, $oobject.document.parentwindow.frames.length, $oobject.document.parentwindow.frames.item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IEFrameGetCollection", "$_IESTATUS_InvalidValue", "$iIndex < -1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        Case Else
+            __IEConsoleWriteError("Warning", "_IEFrameGetCollection", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        EndSelect
+    EndFunc    ; -> _IEFrameGetCollection
+
+    Func _IEFrameGetObjByName(ByRef $oobject, $sname)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFrameGetObjByName", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp, $oframes
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IEFrameGetObjByName", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        If __IEIsObjType($oobject, "document") Then
+            $otemp = $oobject.parentWindow
+        Else
+            $otemp = $oobject.document.parentWindow
+        EndIf
+        If _IEIsFrameSet($otemp) Then
+            $oframes = _IETagNameGetCollection($otemp, "frame")
+        Else
+            $oframes = _IETagNameGetCollection($otemp, "iframe")
+        EndIf
+        If $oframes.length Then
+            For $oframe In $oframes
+                If String($oframe.name) = $sname Then Return SetError($_IESTATUS_SUCCESS, 0x0, $otemp.frames($sname))
+            Next
+            __IEConsoleWriteError("Warning", "_IEFrameGetObjByName", "$_IESTATUS_NoMatch", "No frames matching name")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        Else
+            __IEConsoleWriteError("Warning", "_IEFrameGetObjByName", "$_IESTATUS_NoMatch", "No Frames found")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        EndIf
+    EndFunc    ; -> _IEFrameGetObjByName
+
+#EndRegion Frame Functions
+#Region Link functions
+    Func _IELinkClickByText(ByRef $oobject, $slinktext, $iindex = 0x0, $iwait = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IELinkClickByText", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $ifound = 0x0, $smodelinktext, $olinks = $oobject.document.links
+        $iindex = Number($iindex)
+        For $olink In $olinks
+            $smodelinktext = String($olink.outerText)
+            If $smodelinktext = $slinktext Then
+                If ($ifound = $iindex) Then
+                    $olink.click()
+                    If @error Then
+                        __IEConsoleWriteError("Error", "_IELinkClickByText", "$_IESTATUS_COMError", @error)
+                        Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+                    EndIf
+                    If $iwait Then
+                        _IELoadWait($oobject)
+                        Return SetError(@error, 0x0, + -1)
+                    EndIf
+                    Return SetError($_IESTATUS_SUCCESS, 0x0, + -1)
+                EndIf
+                $ifound = $ifound + 0x1
+            EndIf
+        Next
+        __IEConsoleWriteError("Warning", "_IELinkClickByText", "$_IESTATUS_NoMatch")
+        Return SetError($_IESTATUS_NOMATCH, 0x0, 0x0)
+    EndFunc    ; -> _IELinkClickByText
+
+    Func _IELinkClickByIndex(ByRef $oobject, $iindex, $iwait = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IELinkClickByIndex", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $olinks = $oobject.document.links, $olink
+        $iindex = Number($iindex)
+        If ($iindex >= 0x0) And ($iindex <= $olinks.length + -1) Then
+            $olink = $olinks($iindex)
+            $olink.click()
+            If @error Then
+                __IEConsoleWriteError("Error", "_IELinkClickByIndex", "$_IESTATUS_COMError", @error)
+                Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+            EndIf
+            If $iwait Then
+                _IELoadWait($oobject)
+                Return SetError(@error, 0x0, + -1)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, + -1)
+        Else
+            __IEConsoleWriteError("Warning", "_IELinkClickByIndex", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        EndIf
+    EndFunc    ; -> _IELinkClickByIndex
+
+    Func _IELinkGetCollection(ByRef $oobject, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IELinkGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $oobject.document.links.length, $oobject.document.links)
+        Case $iindex > + -1 And $iindex < $oobject.document.links.length
+            Return SetError($_IESTATUS_SUCCESS, $oobject.document.links.length, $oobject.document.links.item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IELinkGetCollection", "$_IESTATUS_InvalidValue")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        Case Else
+            __IEConsoleWriteError("Warning", "_IELinkGetCollection", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        EndSelect
+    EndFunc    ; -> _IELinkGetCollection
+
+#EndRegion Link functions
+#Region Image functions
+    Func _IEImgClick(ByRef $oobject, $slinktext, $smode = "src", $iindex = 0x0, $iwait = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEImgClick", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $smodelinktext, $ifound = 0x0, $oimgs = $oobject.document.images
+        $smode = StringLower($smode)
+        $iindex = Number($iindex)
+        For $oimg In $oimgs
+            Select
+            Case $smode = "alt"
+                $smodelinktext = $oimg.alt
+            Case $smode = "name"
+                $smodelinktext = $oimg.name
+                If Not IsString($smodelinktext) Then $smodelinktext = $oimg.id
+            Case $smode = "id"
+                $smodelinktext = $oimg.id
+            Case $smode = "src"
+                $smodelinktext = $oimg.src
+            Case Else
+                __IEConsoleWriteError("Error", "_IEImgClick", "$_IESTATUS_InvalidValue", "Invalid mode: " & $smode)
+                Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+            EndSelect
+            If StringInStr($smodelinktext, $slinktext) Then
+                If ($ifound = $iindex) Then
+                    $oimg.click()
+                    If @error Then
+                        __IEConsoleWriteError("Error", "_IEImgClick", "$_IESTATUS_COMError", @error)
+                        Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+                    EndIf
+                    If $iwait Then
+                        _IELoadWait($oobject)
+                        Return SetError(@error, 0x0, + -1)
+                    EndIf
+                    Return SetError($_IESTATUS_SUCCESS, 0x0, + -1)
+                EndIf
+                $ifound = $ifound + 0x1
+            EndIf
+        Next
+        __IEConsoleWriteError("Warning", "_IEImgClick", "$_IESTATUS_NoMatch")
+        Return SetError($_IESTATUS_NOMATCH, 0x0, 0x0)
+    EndFunc    ; -> _IEImgClick
+
+    Func _IEImgGetCollection(ByRef $oobject, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEImgGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp = _IEDocGetObj($oobject)
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $otemp.images.length, $otemp.images)
+        Case $iindex > + -1 And $iindex < $otemp.images.length
+            Return SetError($_IESTATUS_SUCCESS, $otemp.images.length, $otemp.images.item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IEImgGetCollection", "$_IESTATUS_InvalidValue", "$iIndex < -1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        Case Else
+            __IEConsoleWriteError("Warning", "_IEImgGetCollection", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+        EndSelect
+    EndFunc    ; -> _IEImgGetCollection
+
+#EndRegion Image functions
+#Region Form functions
+    Func _IEFormGetCollection(ByRef $oobject, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp = _IEDocGetObj($oobject)
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $otemp.forms.length, $otemp.forms)
+        Case $iindex > + -1 And $iindex < $otemp.forms.length
+            Return SetError($_IESTATUS_SUCCESS, $otemp.forms.length, $otemp.forms.item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IEFormGetCollection", "$_IESTATUS_InvalidValue", "$iIndex < -1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        Case Else
+            __IEConsoleWriteError("Warning", "_IEFormGetCollection", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+        EndSelect
+    EndFunc    ; -> _IEFormGetCollection
+
+    Func _IEFormGetObjByName(ByRef $oobject, $sname, $iindex = 0x0)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormGetObjByName", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $ilength = 0x0
+        Local $ocol = $oobject.document.forms.item($sname)
+        If IsObj($ocol) Then
+            If __IEIsObjType($ocol, "elementcollection") Then
+                $ilength = $ocol.length
+            Else
+                $ilength = 0x1
+            EndIf
+        EndIf
+        $iindex = Number($iindex)
+        If $iindex = + -1 Then
+            Return SetError($_IESTATUS_SUCCESS, $ilength, $oobject.document.forms.item($sname))
+        Else
+            If IsObj($oobject.document.forms.item($sname, $iindex)) Then
+                Return SetError($_IESTATUS_SUCCESS, $ilength, $oobject.document.forms.item($sname, $iindex))
+            Else
+                __IEConsoleWriteError("Warning", "_IEFormGetObjByName", "$_IESTATUS_NoMatch")
+                Return SetError($_IESTATUS_NOMATCH, 0x0, 0x0)
+            EndIf
+        EndIf
+    EndFunc    ; -> _IEFormGetObjByName
+
+    Func _IEFormElementGetCollection(ByRef $oobject, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormElementGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "form") Then
+            __IEConsoleWriteError("Error", "_IEFormElementGetCollection", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $oobject.elements.length, $oobject.elements)
+        Case $iindex > + -1 And $iindex < $oobject.elements.length
+            Return SetError($_IESTATUS_SUCCESS, $oobject.elements.length, $oobject.elements.item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IEFormElementGetCollection", "$_IESTATUS_InvalidValue", "$iIndex < -1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        Case Else
+            Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+        EndSelect
+    EndFunc    ; -> _IEFormElementGetCollection
+
+    Func _IEFormElementGetObjByName(ByRef $oobject, $sname, $iindex = 0x0)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormElementGetObjByName", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "form") Then
+            __IEConsoleWriteError("Error", "_IEFormElementGetObjByName", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $ilength = 0x0
+        Local $ocol = $oobject.elements.item($sname)
+        If IsObj($ocol) Then
+            If __IEIsObjType($ocol, "elementcollection") Then
+                $ilength = $ocol.length
+            Else
+                $ilength = 0x1
+            EndIf
+        EndIf
+        $iindex = Number($iindex)
+        If $iindex = + -1 Then
+            Return SetError($_IESTATUS_SUCCESS, $ilength, $oobject.elements.item($sname))
+        Else
+            If IsObj($oobject.elements.item($sname, $iindex)) Then
+                Return SetError($_IESTATUS_SUCCESS, $ilength, $oobject.elements.item($sname, $iindex))
+            Else
+                __IEConsoleWriteError("Warning", "_IEFormElementGetObjByName", "$_IESTATUS_NoMatch")
+                Return SetError($_IESTATUS_NOMATCH, 0x0, 0x0)
+            EndIf
+        EndIf
+    EndFunc    ; -> _IEFormElementGetObjByName
+
+    Func _IEFormElementGetValue(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormElementGetValue", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "forminputelement") Then
+            __IEConsoleWriteError("Error", "_IEFormElementGetValue", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $sreturn = String($oobject.value)
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEFormElementGetValue", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        SetError($_IESTATUS_SUCCESS)
+        Return $sreturn
+    EndFunc    ; -> _IEFormElementGetValue
+
+    Func _IEFormElementSetValue(ByRef $oobject, $snewvalue, $ifireevent = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormElementSetValue", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "forminputelement") Then
+            __IEConsoleWriteError("Error", "_IEFormElementSetValue", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        If String($oobject.type) = "file" Then
+            __IEConsoleWriteError("Error", "_IEFormElementSetValue", "$_IESTATUS_InvalidObjectType", "Browser security prevents SetValue of TYPE=FILE")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $oobject.value = $snewvalue
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEFormElementSetValue", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        If $ifireevent Then
+            $oobject.fireEvent("OnChange")
+            $oobject.fireEvent("OnClick")
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEFormElementSetValue
+
+    Func _IEFormElementOptionSelect(ByRef $oobject, $sstring, $iselect = 0x1, $smode = "byValue", $ifireevent = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "formselectelement") Then
+            __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $oitem, $oitems = $oobject.options, $inumitems = $oobject.options.length, $bismultiple = $oobject.multiple
+        Switch $smode
+        Case "byValue"
+            For $oitem In $oitems
+                If $oitem.value = $sstring Then
+                    Switch $iselect
+                    Case + -1
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, $oitem.selected)
+                    Case 0x0
+                        If Not $bismultiple Then
+                            __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "$iSelect=0 only valid for type=select multiple")
+                            Return SetError($_IESTATUS_INVALIDVALUE, 0x3)
+                        EndIf
+                        If $oitem.selected Then
+                            $oitem.selected = False
+                            If $ifireevent Then
+                                $oobject.fireEvent("onChange")
+                                $oobject.fireEvent("OnClick")
+                            EndIf
+                        EndIf
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+                    Case 0x1
+                        If Not $oitem.selected Then
+                            $oitem.selected = True
+                            If $ifireevent Then
+                                $oobject.fireEvent("onChange")
+                                $oobject.fireEvent("OnClick")
+                            EndIf
+                        EndIf
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+                    Case Else
+                        __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "Invalid $iSelect value")
+                        Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+                    EndSwitch
+                EndIf
+            Next
+            __IEConsoleWriteError("Warning", "_IEFormElementOptionSelect", "$_IESTATUS_NoMatch", "Value not matched")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        Case "byText"
+            For $oitem In $oitems
+                If String($oitem.text) = $sstring Then
+                    Switch $iselect
+                    Case + -1
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, $oitem.selected)
+                    Case 0x0
+                        If Not $bismultiple Then
+                            __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "$iSelect=0 only valid for type=select multiple")
+                            Return SetError($_IESTATUS_INVALIDVALUE, 0x3)
+                        EndIf
+                        If $oitem.selected Then
+                            $oitem.selected = False
+                            If $ifireevent Then
+                                $oobject.fireEvent("onChange")
+                                $oobject.fireEvent("OnClick")
+                            EndIf
+                        EndIf
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+                    Case 0x1
+                        If Not $oitem.selected Then
+                            $oitem.selected = True
+                            If $ifireevent Then
+                                $oobject.fireEvent("onChange")
+                                $oobject.fireEvent("OnClick")
+                            EndIf
+                        EndIf
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+                    Case Else
+                        __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "Invalid $iSelect value")
+                        Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+                    EndSwitch
+                EndIf
+            Next
+            __IEConsoleWriteError("Warning", "_IEFormElementOptionSelect", "$_IESTATUS_NoMatch", "Text not matched")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        Case "byIndex"
+            Local $iindex = Number($sstring)
+            If $iindex < 0x0 Or $iindex >= $inumitems Then
+                __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "Invalid index value, " & $iindex)
+                Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+            EndIf
+            $oitem = $oitems.item($iindex)
+            Switch $iselect
+            Case + -1
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oitems.item($iindex).selected)
+            Case 0x0
+                If Not $bismultiple Then
+                    __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "$iSelect=0 only valid for type=select multiple")
+                    Return SetError($_IESTATUS_INVALIDVALUE, 0x3)
+                EndIf
+                If $oitem.selected Then
+                    $oitems.item($iindex).selected = False
+                    If $ifireevent Then
+                        $oobject.fireEvent("onChange")
+                        $oobject.fireEvent("OnClick")
+                    EndIf
+                EndIf
+                Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+            Case 0x1
+                If Not $oitem.selected Then
+                    $oitems.item($iindex).selected = True
+                    If $ifireevent Then
+                        $oobject.fireEvent("onChange")
+                        $oobject.fireEvent("OnClick")
+                    EndIf
+                EndIf
+                Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+            Case Else
+                __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "Invalid $iSelect value")
+                Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+            EndSwitch
+        Case Else
+            __IEConsoleWriteError("Error", "_IEFormElementOptionSelect", "$_IESTATUS_InvalidValue", "Invalid Mode")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x4, 0x0)
+        EndSwitch
+    EndFunc    ; -> _IEFormElementOptionSelect
+
+    Func _IEFormElementCheckBoxSelect(ByRef $oobject, $sstring, $sname = '', $iselect = 0x1, $smode = "byValue", $ifireevent = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormElementCheckBoxSelect", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "form") Then
+            __IEConsoleWriteError("Error", "_IEFormElementCheckBoxSelect", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $sstring = String($sstring)
+        $sname = String($sname)
+        Local $oitems
+        If $sname = '' Then
+            $oitems = _IETagNameGetCollection($oobject, "input")
+        Else
+            $oitems = Execute("$oObject.elements('" & $sname & "')")
+        EndIf
+        If Not IsObj($oitems) Then
+            __IEConsoleWriteError("Warning", "_IEFormElementCheckBoxSelect", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x3, 0x0)
+        EndIf
+        Local $oitem, $bfound = False
+        Switch $smode
+        Case "byValue"
+            If __IEIsObjType($oitems, "forminputelement") Then
+                $oitem = $oitems
+                If String($oitem.type) = "checkbox" And String($oitem.value) = $sstring Then $bfound = True
+            Else
+                For $oitem In $oitems
+                    If String($oitem.type) = "checkbox" And String($oitem.value) = $sstring Then
+                        $bfound = True
+                        ExitLoop
+                    EndIf
+                Next
+            EndIf
+        Case "byIndex"
+            If __IEIsObjType($oitems, "forminputelement") Then
+                $oitem = $oitems
+                If String($oitem.type) = "checkbox" And Number($sstring) = 0x0 Then $bfound = True
+            Else
+                Local $icount = 0x0
+                For $oitem In $oitems
+                    If String($oitem.type) = "checkbox" And Number($sstring) = $icount Then
+                        $bfound = True
+                        ExitLoop
+                    Else
+                        If String($oitem.type) = "checkbox" Then $icount += 0x1
+                    EndIf
+                Next
+            EndIf
+        Case Else
+            __IEConsoleWriteError("Error", "_IEFormElementCheckBoxSelect", "$_IESTATUS_InvalidValue", "Invalid Mode")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x5, 0x0)
+        EndSwitch
+        If Not $bfound Then
+            __IEConsoleWriteError("Warning", "_IEFormElementCheckBoxSelect", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        EndIf
+        Switch $iselect
+        Case + -1
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oitem.checked)
+        Case 0x0
+            If $oitem.checked Then
+                $oitem.checked = False
+                If $ifireevent Then
+                    $oitem.fireEvent("onChange")
+                    $oitem.fireEvent("OnClick")
+                EndIf
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Case 0x1
+            If Not $oitem.checked Then
+                $oitem.checked = True
+                If $ifireevent Then
+                    $oitem.fireEvent("onChange")
+                    $oitem.fireEvent("OnClick")
+                EndIf
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Case Else
+            __IEConsoleWriteError("Error", "_IEFormElementCheckBoxSelect", "$_IESTATUS_InvalidValue", "Invalid $iSelect value")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+        EndSwitch
+    EndFunc    ; -> _IEFormElementCheckBoxSelect
+
+    Func _IEFormElementRadioSelect(ByRef $oobject, $sstring, $sname, $iselect = 0x1, $smode = "byValue", $ifireevent = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormElementRadioSelect", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "form") Then
+            __IEConsoleWriteError("Error", "_IEFormElementRadioSelect", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $sstring = String($sstring)
+        $sname = String($sname)
+        Local $oitems = Execute("$oObject.elements('" & $sname & "')")
+        If Not IsObj($oitems) Then
+            __IEConsoleWriteError("Warning", "_IEFormElementRadioSelect", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x3, 0x0)
+        EndIf
+        Local $oitem, $bfound = False
+        Switch $smode
+        Case "byValue"
+            If __IEIsObjType($oitems, "forminputelement") Then
+                $oitem = $oitems
+                If String($oitem.type) = "radio" And String($oitem.value) = $sstring Then $bfound = True
+            Else
+                For $oitem In $oitems
+                    If String($oitem.type) = "radio" And String($oitem.value) = $sstring Then
+                        $bfound = True
+                        ExitLoop
+                    EndIf
+                Next
+            EndIf
+        Case "byIndex"
+            If __IEIsObjType($oitems, "forminputelement") Then
+                $oitem = $oitems
+                If String($oitem.type) = "radio" And Number($sstring) = 0x0 Then $bfound = True
+            Else
+                Local $icount = 0x0
+                For $oitem In $oitems
+                    If String($oitem.type) = "radio" And Number($sstring) = $icount Then
+                        $bfound = True
+                        ExitLoop
+                    Else
+                        $icount += 0x1
+                    EndIf
+                Next
+            EndIf
+        Case Else
+            __IEConsoleWriteError("Error", "_IEFormElementRadioSelect", "$_IESTATUS_InvalidValue", "Invalid Mode")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x5, 0x0)
+        EndSwitch
+        If Not $bfound Then
+            __IEConsoleWriteError("Warning", "_IEFormElementRadioSelect", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        EndIf
+        Switch $iselect
+        Case + -1
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oitem.checked)
+        Case 0x0
+            If $oitem.checked Then
+                $oitem.checked = False
+                If $ifireevent Then
+                    $oitem.fireEvent("onChange")
+                    $oitem.fireEvent("OnClick")
+                EndIf
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Case 0x1
+            If Not $oitem.checked Then
+                $oitem.checked = True
+                If $ifireevent Then
+                    $oitem.fireEvent("onChange")
+                    $oitem.fireEvent("OnClick")
+                EndIf
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Case Else
+            __IEConsoleWriteError("Error", "_IEFormElementRadioSelect", "$_IESTATUS_InvalidValue", "$iSelect value invalid")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x4, 0x0)
+        EndSwitch
+    EndFunc    ; -> _IEFormElementRadioSelect
+
+    Func _IEFormImageClick(ByRef $oobject, $slinktext, $smode = "src", $iindex = 0x0, $iwait = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormImageClick", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $smodelinktext, $ifound = 0x0
+        Local $otemp = _IEDocGetObj($oobject)
+        Local $oimgs = _IETagNameGetCollection($otemp, "input")
+        $smode = StringLower($smode)
+        $iindex = Number($iindex)
+        For $oimg In $oimgs
+            If String($oimg.type) = "image" Then
+                Select
+                Case $smode = "alt"
+                    $smodelinktext = $oimg.alt
+                Case $smode = "name"
+                    $smodelinktext = $oimg.name
+                    If Not IsString($smodelinktext) Then $smodelinktext = $oimg.id
+                Case $smode = "id"
+                    $smodelinktext = $oimg.id
+                Case $smode = "src"
+                    $smodelinktext = $oimg.src
+                Case Else
+                    __IEConsoleWriteError("Error", "_IEFormImageClick", "$_IESTATUS_InvalidValue", "Invalid mode: " & $smode)
+                    Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+                EndSelect
+                If StringInStr($smodelinktext, $slinktext) Then
+                    If ($ifound = $iindex) Then
+                        $oimg.click()
+                        If @error Then
+                            __IEConsoleWriteError("Error", "_IEFormImageClick", "$_IESTATUS_COMError", @error)
+                            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+                        EndIf
+                        If $iwait Then
+                            _IELoadWait($oobject)
+                            Return SetError(@error, 0x0, + -1)
+                        EndIf
+                        Return SetError($_IESTATUS_SUCCESS, 0x0, + -1)
+                    EndIf
+                    $ifound = $ifound + 0x1
+                EndIf
+            EndIf
+        Next
+        __IEConsoleWriteError("Warning", "_IEFormImageClick", "$_IESTATUS_NoMatch")
+        Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+    EndFunc    ; -> _IEFormImageClick
+
+    Func _IEFormSubmit(ByRef $oobject, $iwait = 0x1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormSubmit", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "form") Then
+            __IEConsoleWriteError("Error", "_IEFormSubmit", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $owindow = $oobject.document.parentWindow
+        $oobject.submit()
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEFormSubmit", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        If $iwait Then
+            _IELoadWait($owindow)
+            Return SetError(@error, 0x0, + -1)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, + -1)
+    EndFunc    ; -> _IEFormSubmit
+
+    Func _IEFormReset(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEFormReset", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "form") Then
+            __IEConsoleWriteError("Error", "_IEFormReset", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $oobject.reset()
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEFormReset", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEFormReset
+
+#EndRegion Form functions
+#Region Table functions
+    Func _IETableGetCollection(ByRef $oobject, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IETableGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $oobject.document.GetElementsByTagName("table").length, $oobject.document.GetElementsByTagName("table"))
+        Case $iindex > + -1 And $iindex < $oobject.document.GetElementsByTagName("table").length
+            Return SetError($_IESTATUS_SUCCESS, $oobject.document.GetElementsByTagName("table").length, $oobject.document.GetElementsByTagName("table").item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IETableGetCollection", "$_IESTATUS_InvalidValue", "$iIndex < -1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        Case Else
+            __IEConsoleWriteError("Warning", "_IETableGetCollection", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+        EndSelect
+    EndFunc    ; -> _IETableGetCollection
+
+    Func _IETableWriteToArray(ByRef $oobject, $btranspose = False)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IETableWriteToArray", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "table") Then
+            __IEConsoleWriteError("Error", "_IETableWriteToArray", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $icols = 0x0, $otds, $icol
+        Local $otrs = $oobject.rows
+        For $otr In $otrs
+            $otds = $otr.cells
+            $icol = 0x0
+            For $otd In $otds
+                $icol = $icol + $otd.colSpan
+            Next
+            If $icol > $icols Then $icols = $icol
+        Next
+        Local $irows = $otrs.length
+        Local $atablecells[$icols][$irows]
+        Local $irow = 0x0
+        For $otr In $otrs
+            $otds = $otr.cells
+            $icol = 0x0
+            For $otd In $otds
+                $atablecells[$icol][$irow] = String($otd.innerText)
+                If @error Then
+                    __IEConsoleWriteError("Error", "_IETableWriteToArray", "$_IESTATUS_COMError", @error)
+                    Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+                EndIf
+                $icol = $icol + $otd.colSpan
+            Next
+            $irow = $irow + 0x1
+        Next
+        If $btranspose Then
+            Local $id1 = UBound($atablecells, $UBOUND_ROWS), $id2 = UBound($atablecells, $UBOUND_COLUMNS), $atmp[$id2][$id1]
+            For $i = 0x0 To $id2 + -1
+                For $j = 0x0 To $id1 + -1
+                    $atmp[$i][$j] = $atablecells[$j][$i]
+                Next
+            Next
+            $atablecells = $atmp
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $atablecells)
+    EndFunc    ; -> _IETableWriteToArray
+
+#EndRegion Table functions
+#Region Read/Write functions
+    Func _IEBodyReadHTML(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEBodyReadHTML", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.body.innerHTML)
+    EndFunc    ; -> _IEBodyReadHTML
+
+    Func _IEBodyReadText(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEBodyReadText", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IEBodyReadText", "$_IESTATUS_InvalidObjectType", "Expected document element")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.body.innerText)
+    EndFunc    ; -> _IEBodyReadText
+
+    Func _IEBodyWriteHTML(ByRef $oobject, $shtml)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEBodyWriteHTML", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IEBodyWriteHTML", "$_IESTATUS_InvalidObjectType", "Expected document element")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $oobject.document.body.innerHTML = $shtml
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEBodyWriteHTML", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        Local $otemp = $oobject.document
+        _IELoadWait($otemp)
+        Return SetError(@error, 0x0, + -1)
+    EndFunc    ; -> _IEBodyWriteHTML
+
+    Func _IEDocReadHTML(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEDocReadHTML", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IEDocReadHTML", "$_IESTATUS_InvalidObjectType", "Expected document element")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.documentElement.outerHTML)
+    EndFunc    ; -> _IEDocReadHTML
+
+    Func _IEDocWriteHTML(ByRef $oobject, $shtml)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEDocWriteHTML", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IEDocWriteHTML", "$_IESTATUS_InvalidObjectType", "Expected document element")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $oobject.document.Write($shtml)
+        $oobject.document.close()
+        Local $otemp = $oobject.document
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEDocWriteHTML", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        _IELoadWait($otemp)
+        Return SetError(@error, 0x0, + -1)
+    EndFunc    ; -> _IEDocWriteHTML
+
+    Func _IEDocInsertText(ByRef $oobject, $sstring, $swhere = "beforeend")
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEDocInsertText", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Or __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+            __IEConsoleWriteError("Error", "_IEDocInsertText", "$_IESTATUS_InvalidObjectType", "Expected document element")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $swhere = StringLower($swhere)
+        Select
+        Case $swhere = "beforebegin"
+            $oobject.insertAdjacentText($swhere, $sstring)
+        Case $swhere = "afterbegin"
+            $oobject.insertAdjacentText($swhere, $sstring)
+        Case $swhere = "beforeend"
+            $oobject.insertAdjacentText($swhere, $sstring)
+        Case $swhere = "afterend"
+            $oobject.insertAdjacentText($swhere, $sstring)
+        Case Else
+            __IEConsoleWriteError("Error", "_IEDocInsertText", "$_IESTATUS_InvalidValue", "Invalid where value")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+        EndSelect
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEDocInsertText", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEDocInsertText
+
+    Func _IEDocInsertHTML(ByRef $oobject, $sstring, $swhere = "beforeend")
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEDocInsertHTML", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Or __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+            __IEConsoleWriteError("Error", "_IEDocInsertHTML", "$_IESTATUS_InvalidObjectType", "Expected document element")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $swhere = StringLower($swhere)
+        Select
+        Case $swhere = "beforebegin"
+            $oobject.insertAdjacentHTML($swhere, $sstring)
+        Case $swhere = "afterbegin"
+            $oobject.insertAdjacentHTML($swhere, $sstring)
+        Case $swhere = "beforeend"
+            $oobject.insertAdjacentHTML($swhere, $sstring)
+        Case $swhere = "afterend"
+            $oobject.insertAdjacentHTML($swhere, $sstring)
+        Case Else
+            __IEConsoleWriteError("Error", "_IEDocInsertHTML", "$_IESTATUS_InvalidValue", "Invalid where value")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+        EndSelect
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEDocInsertHTML", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEDocInsertHTML
+
+    Func _IEHeadInsertEventScript(ByRef $oobject, $shtmlfor, $sevent, $sscript)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEHeadInsertEventScript", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $ohead = $oobject.document.all.tags("HEAD").Item(0x0)
+        Local $oscript = $oobject.document.createElement("script")
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEHeadInsertEventScript(script)", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        With $oscript
+            .defer = True
+            .language = "jscript"
+            .type = "text/javascript"
+            .htmlFor = $shtmlfor
+            .event = $sevent
+            .text = $sscript
+        EndWith
+        $ohead.appendChild($oscript)
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEHeadInsertEventScript", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEHeadInsertEventScript
+
+#EndRegion Read/Write functions
+#Region Utility functions
+    Func _IEDocGetObj(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEDocGetObj", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If __IEIsObjType($oobject, "document") Then
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document)
+    EndFunc    ; -> _IEDocGetObj
+
+    Func _IETagNameGetCollection(ByRef $oobject, $stagname, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IETagNameGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IETagNameGetCollection", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp
+        If __IEIsObjType($oobject, "documentcontainer") Then
+            $otemp = _IEDocGetObj($oobject)
+        Else
+            $otemp = $oobject
+        EndIf
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $otemp.GetElementsByTagName($stagname).length, $otemp.GetElementsByTagName($stagname))
+        Case $iindex > + -1 And $iindex < $otemp.GetElementsByTagName($stagname).length
+            Return SetError($_IESTATUS_SUCCESS, $otemp.GetElementsByTagName($stagname).length, $otemp.GetElementsByTagName($stagname).item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IETagNameGetCollection", "$_IESTATUS_InvalidValue", "$iIndex < -1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x3, 0x0)
+        Case Else
+            __IEConsoleWriteError("Error", "_IETagNameGetCollection", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x0, 0x0)
+        EndSelect
+    EndFunc    ; -> _IETagNameGetCollection
+
+    Func _IETagNameAllGetCollection(ByRef $oobject, $iindex = + -1)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IETagNameAllGetCollection", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IETagNameAllGetCollection", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp
+        If __IEIsObjType($oobject, "documentcontainer") Then
+            $otemp = _IEDocGetObj($oobject)
+        Else
+            $otemp = $oobject
+        EndIf
+        $iindex = Number($iindex)
+        Select
+        Case $iindex = + -1
+            Return SetError($_IESTATUS_SUCCESS, $otemp.all.length, $otemp.all)
+        Case $iindex > + -1 And $iindex < $otemp.all.length
+            Return SetError($_IESTATUS_SUCCESS, $otemp.all.length, $otemp.all.item($iindex))
+        Case $iindex < + -1
+            __IEConsoleWriteError("Error", "_IETagNameAllGetCollection", "$_IESTATUS_InvalidValue", "$iIndex < -1")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        Case Else
+            __IEConsoleWriteError("Error", "_IETagNameAllGetCollection", "$_IESTATUS_NoMatch")
+            Return SetError($_IESTATUS_NOMATCH, 0x1, 0x0)
+        EndSelect
+    EndFunc    ; -> _IETagNameAllGetCollection
+
+    Func _IEGetObjByName(ByRef $oobject, $sname, $iindex = 0x0)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEGetObjByName", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        $iindex = Number($iindex)
+        If $iindex = + -1 Then
+            Return SetError($_IESTATUS_SUCCESS, $oobject.document.GetElementsByName($sname).length, $oobject.document.GetElementsByName($sname))
+        Else
+            If IsObj($oobject.document.GetElementsByName($sname).item($iindex)) Then
+                Return SetError($_IESTATUS_SUCCESS, $oobject.document.GetElementsByName($sname).length, $oobject.document.GetElementsByName($sname).item($iindex))
+            Else
+                __IEConsoleWriteError("Warning", "_IEGetObjByName", "$_IESTATUS_NoMatch", "Name: " & $sname & ", Index: " & $iindex)
+                Return SetError($_IESTATUS_NOMATCH, 0x0, 0x0)
+            EndIf
+        EndIf
+    EndFunc    ; -> _IEGetObjByName
+
+    Func _IEGetObjById(ByRef $oobject, $sid)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEGetObjById", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IEGetObById", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        If IsObj($oobject.document.getElementById($sid)) Then
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.getElementById($sid))
+        Else
+            __IEConsoleWriteError("Warning", "_IEGetObjById", "$_IESTATUS_NoMatch", $sid)
+            Return SetError($_IESTATUS_NOMATCH, 0x2, 0x0)
+        EndIf
+    EndFunc    ; -> _IEGetObjById
+
+    Func _IEAction(ByRef $oobject, $saction)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEAction(" & $saction & ")", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        $saction = StringLower($saction)
+        Select
+        Case $saction = "click"
+            If __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(click)", " $_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Click()
+        Case $saction = "disable"
+            If __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(disable)", " $_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.disabled = True
+        Case $saction = "enable"
+            If __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(enable)", " $_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.disabled = False
+        Case $saction = "focus"
+            If __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(focus)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Focus()
+        Case $saction = "scrollintoview"
+            If __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(scrollintoview)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.scrollIntoView()
+        Case $saction = "copy"
+            $oobject.document.execCommand("Copy")
+        Case $saction = "cut"
+            $oobject.document.execCommand("Cut")
+        Case $saction = "paste"
+            $oobject.document.execCommand("Paste")
+        Case $saction = "delete"
+            $oobject.document.execCommand("Delete")
+        Case $saction = "saveas"
+            $oobject.document.execCommand("SaveAs")
+        Case $saction = "refresh"
+            $oobject.document.execCommand("Refresh")
+            If @error Then
+                __IEConsoleWriteError("Error", "_IEAction(refresh)", "$_IESTATUS_COMError", @error)
+                Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+            EndIf
+            _IELoadWait($oobject)
+        Case $saction = "selectall"
+            $oobject.document.execCommand("SelectAll")
+        Case $saction = "unselect"
+            $oobject.document.execCommand("Unselect")
+        Case $saction = "print"
+            $oobject.document.parentwindow.Print()
+        Case $saction = "printdefault"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEAction(printdefault)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.execWB(0x6, 0x2)
+        Case $saction = "back"
+            If Not __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(back)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.GoBack()
+        Case $saction = "blur"
+            $oobject.Blur()
+        Case $saction = "forward"
+            If Not __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(forward)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.GoForward()
+        Case $saction = "home"
+            If Not __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(home)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.GoHome()
+        Case $saction = "invisible"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEAction(invisible)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.visible = 0x0
+        Case $saction = "visible"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEAction(visible)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.visible = 0x1
+        Case $saction = "search"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEAction(search)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.GoSearch()
+        Case $saction = "stop"
+            If Not __IEIsObjType($oobject, "documentContainer") Then
+                __IEConsoleWriteError("Error", "_IEAction(stop)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Stop()
+        Case $saction = "quit"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEAction(quit)", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Quit()
+            If @error Then
+                __IEConsoleWriteError("Error", "_IEAction(" & $saction & ")", "$_IESTATUS_COMError", @error)
+                Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+            EndIf
+            $oobject = 0x0
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Case Else
+            __IEConsoleWriteError("Error", "_IEAction(" & $saction & ")", "$_IESTATUS_InvalidValue", "Invalid Action")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        EndSelect
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEAction(" & $saction & ")", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEAction
+
+    Func _IEPropertyGet(ByRef $oobject, $sproperty)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browserdom") Then
+            __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp, $itemp
+        $sproperty = StringLower($sproperty)
+        Select
+        Case $sproperty = "browserx"
+            If __IEIsObjType($oobject, "browsercontainer") Or __IEIsObjType($oobject, "document") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $otemp = $oobject
+            $itemp = 0x0
+            While IsObj($otemp)
+                $itemp += $otemp.offsetLeft
+                $otemp = $otemp.offsetParent
+            WEnd
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $itemp)
+        Case $sproperty = "browsery"
+            If __IEIsObjType($oobject, "browsercontainer") Or __IEIsObjType($oobject, "document") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $otemp = $oobject
+            $itemp = 0x0
+            While IsObj($otemp)
+                $itemp += $otemp.offsetTop
+                $otemp = $otemp.offsetParent
+            WEnd
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $itemp)
+        Case $sproperty = "screenx"
+            If __IEIsObjType($oobject, "window") Or __IEIsObjType($oobject, "document") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            If __IEIsObjType($oobject, "browser") Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.left())
+            Else
+                $otemp = $oobject
+                $itemp = 0x0
+                While IsObj($otemp)
+                    $itemp += $otemp.offsetLeft
+                    $otemp = $otemp.offsetParent
+                WEnd
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $itemp + $oobject.document.parentWindow.screenLeft)
+        Case $sproperty = "screeny"
+            If __IEIsObjType($oobject, "window") Or __IEIsObjType($oobject, "document") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            If __IEIsObjType($oobject, "browser") Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.top())
+            Else
+                $otemp = $oobject
+                $itemp = 0x0
+                While IsObj($otemp)
+                    $itemp += $otemp.offsetTop
+                    $otemp = $otemp.offsetParent
+                WEnd
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $itemp + $oobject.document.parentWindow.screenTop)
+        Case $sproperty = "height"
+            If __IEIsObjType($oobject, "window") Or __IEIsObjType($oobject, "document") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            If __IEIsObjType($oobject, "browser") Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Height())
+            Else
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.offsetHeight)
+            EndIf
+        Case $sproperty = "width"
+            If __IEIsObjType($oobject, "window") Or __IEIsObjType($oobject, "document") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            If __IEIsObjType($oobject, "browser") Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Width())
+            Else
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.offsetWidth)
+            EndIf
+        Case $sproperty = "isdisabled"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.isDisabled())
+        Case $sproperty = "addressbar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.AddressBar())
+        Case $sproperty = "busy"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Busy())
+        Case $sproperty = "fullscreen"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.fullScreen())
+        Case $sproperty = "hwnd"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, HWnd($oobject.HWnd()))
+        Case $sproperty = "left"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Left())
+        Case $sproperty = "locationname"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.LocationName())
+        Case $sproperty = "locationurl"
+            If __IEIsObjType($oobject, "browser") Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.locationURL())
+            EndIf
+            If __IEIsObjType($oobject, "window") Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.location.href())
+            EndIf
+            If __IEIsObjType($oobject, "document") Then
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.parentwindow.location.href())
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentwindow.location.href())
+        Case $sproperty = "menubar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.MenuBar())
+        Case $sproperty = "offline"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.OffLine())
+        Case $sproperty = "readystate"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.ReadyState())
+        Case $sproperty = "resizable"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Resizable())
+        Case $sproperty = "silent"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Silent())
+        Case $sproperty = "statusbar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.StatusBar())
+        Case $sproperty = "statustext"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.StatusText())
+        Case $sproperty = "top"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Top())
+        Case $sproperty = "visible"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.Visible())
+        Case $sproperty = "appcodename"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.appCodeName())
+        Case $sproperty = "appminorversion"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.appMinorVersion())
+        Case $sproperty = "appname"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.appName())
+        Case $sproperty = "appversion"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.appVersion())
+        Case $sproperty = "browserlanguage"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.browserLanguage())
+        Case $sproperty = "cookieenabled"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.cookieEnabled())
+        Case $sproperty = "cpuclass"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.cpuClass())
+        Case $sproperty = "javaenabled"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.javaEnabled())
+        Case $sproperty = "online"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.onLine())
+        Case $sproperty = "platform"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.platform())
+        Case $sproperty = "systemlanguage"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.systemLanguage())
+        Case $sproperty = "useragent"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.userAgent())
+        Case $sproperty = "userlanguage"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.parentWindow.top.navigator.userLanguage())
+        Case $sproperty = "referrer"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.referrer)
+        Case $sproperty = "theatermode"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.TheaterMode)
+        Case $sproperty = "toolbar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.ToolBar)
+        Case $sproperty = "contenteditable"
+            If __IEIsObjType($oobject, "browser") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $otemp.isContentEditable)
+        Case $sproperty = "innertext"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $otemp.innerText)
+        Case $sproperty = "outertext"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $otemp.outerText)
+        Case $sproperty = "innerhtml"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $otemp.innerHTML)
+        Case $sproperty = "outerhtml"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $otemp.outerHTML)
+        Case $sproperty = "title"
+            Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.document.title)
+        Case $sproperty = "uniqueid"
+            If __IEIsObjType($oobject, "window") Then
+                __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            Else
+                Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject.uniqueID)
+            EndIf
+        Case Else
+            __IEConsoleWriteError("Error", "_IEPropertyGet", "$_IESTATUS_InvalidValue", "Invalid Property")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        EndSelect
+    EndFunc    ; -> _IEPropertyGet
+
+    Func _IEPropertySet(ByRef $oobject, $sproperty, $vvalue)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $otemp
+        #forceref $oTemp
+        $sproperty = StringLower($sproperty)
+        Select
+        Case $sproperty = "addressbar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.AddressBar = $vvalue
+        Case $sproperty = "height"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Height = $vvalue
+        Case $sproperty = "left"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Left = $vvalue
+        Case $sproperty = "menubar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.MenuBar = $vvalue
+        Case $sproperty = "offline"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.OffLine = $vvalue
+        Case $sproperty = "resizable"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Resizable = $vvalue
+        Case $sproperty = "statusbar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.StatusBar = $vvalue
+        Case $sproperty = "statustext"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.StatusText = $vvalue
+        Case $sproperty = "top"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Top = $vvalue
+        Case $sproperty = "width"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            $oobject.Width = $vvalue
+        Case $sproperty = "theatermode"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            If $vvalue Then
+                $oobject.TheaterMode = True
+            Else
+                $oobject.TheaterMode = False
+            EndIf
+        Case $sproperty = "toolbar"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            If $vvalue Then
+                $oobject.ToolBar = True
+            Else
+                $oobject.ToolBar = False
+            EndIf
+        Case $sproperty = "contenteditable"
+            If __IEIsObjType($oobject, "browser") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            If $vvalue Then
+                $otemp.contentEditable = "true"
+            Else
+                $otemp.contentEditable = "false"
+            EndIf
+        Case $sproperty = "innertext"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            $otemp.innerText = $vvalue
+        Case $sproperty = "outertext"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            $otemp.outerText = $vvalue
+        Case $sproperty = "innerhtml"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            $otemp.innerHTML = $vvalue
+        Case $sproperty = "outerhtml"
+            If __IEIsObjType($oobject, "documentcontainer") Or __IEIsObjType($oobject, "document") Then
+                $otemp = $oobject.document.body
+            Else
+                $otemp = $oobject
+            EndIf
+            $otemp.outerHTML = $vvalue
+        Case $sproperty = "title"
+            $oobject.document.title = $vvalue
+        Case $sproperty = "silent"
+            If Not __IEIsObjType($oobject, "browser") Then
+                __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidObjectType")
+                Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+            EndIf
+            If $vvalue Then
+                $oobject.silent = True
+            Else
+                $oobject.silent = False
+            EndIf
+        Case Else
+            __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_InvalidValue", "Invalid Property")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x2, 0x0)
+        EndSelect
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEPropertySet", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEPropertySet
+
+    Func _IEErrorNotify($vnotify = Default)
+        If $vnotify = Default Then Return $__g_bieerrornotify
+        If $vnotify Then
+            $__g_bieerrornotify = True
+        Else
+            $__g_bieerrornotify = False
+        EndIf
+        Return 0x1
+    EndFunc    ; -> _IEErrorNotify
+
+    Func _IEErrorHandlerRegister($sfunctionname = "__IEInternalErrorHandler")
+        $__g_oieerrorhandler = ObjEvent("AutoIt.Error", $sfunctionname)
+        If IsObj($__g_oieerrorhandler) Then
+            $__g_sieusererrorhandler = $sfunctionname
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Else
+            $__g_oieerrorhandler = ''
+            __IEConsoleWriteError("Error", "_IEErrorHandlerRegister", "$_IEStatus_GeneralError", "Error Handler Not Registered - Check existance of error function")
+            Return SetError($_IESTATUS_GENERALERROR, 0x1, 0x0)
+        EndIf
+    EndFunc    ; -> _IEErrorHandlerRegister
+
+    Func _IEErrorHandlerDeRegister()
+        $__g_sieusererrorhandler = ''
+        $__g_oieerrorhandler = ''
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEErrorHandlerDeRegister
+
+    Func __IEInternalErrorHandlerRegister()
+        Local $scurrenterrorhandler = ObjEvent("AutoIt.Error")
+        If $scurrenterrorhandler <> '' And Not IsObj($__g_oieerrorhandler) Then
+            Return SetError($_IESTATUS_GENERALERROR, 0x0, False)
+        EndIf
+        $__g_oieerrorhandler = ObjEvent("AutoIt.Error", "__IEInternalErrorHandler")
+        If IsObj($__g_oieerrorhandler) Then
+            Return SetError($_IESTATUS_SUCCESS, 0x0, True)
+        Else
+            $__g_oieerrorhandler = ''
+            Return SetError($_IESTATUS_GENERALERROR, 0x0, False)
+        EndIf
+    EndFunc    ; -> __IEInternalErrorHandlerRegister
+
+    Func __IEInternalErrorHandlerDeRegister()
+        $__g_oieerrorhandler = ''
+        If $__g_sieusererrorhandler <> '' Then
+            $__g_oieerrorhandler = ObjEvent("AutoIt.Error", $__g_sieusererrorhandler)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> __IEInternalErrorHandlerDeRegister
+
+    Func __IEInternalErrorHandler($ocomerror)
+        If $__g_bieerrornotify Or $__g_bieau3debug Then ConsoleWrite("--> " & __COMErrorFormating($ocomerror, "----> $IEComError") & @CRLF)
+        SetError($_IESTATUS_COMERROR)
+        Return
+    EndFunc    ; -> __IEInternalErrorHandler
+
+    Func _IEQuit(ByRef $oobject)
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "_IEQuit", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "browser") Then
+            __IEConsoleWriteError("Error", "_IEQuit", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $oobject.quit()
+        If @error Then
+            __IEConsoleWriteError("Error", "_IEQuit", "$_IESTATUS_COMError", @error)
+            Return SetError($_IESTATUS_COMERROR, @error, 0x0)
+        EndIf
+        $oobject = 0x0
+        Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+    EndFunc    ; -> _IEQuit
+
+#EndRegion Utility functions
+#Region General
+    Func _IE_Introduction($smodule = "basic")
+        Local $shtml = ''
+        Switch $smodule
+        Case "basic"
+            $shtml &= "<!DOCTYPE html>" & @CR
+            $shtml &= "<html>" & @CR
+            $shtml &= "<head>" & @CR
+            $shtml &= "<meta content=""text/html; charset=UTF-8"" http-equiv=""content-type"">" & @CR
+            $shtml &= "<title>_IE_Introduction (""basic"")</title>" & @CR
+            $shtml &= "<style>body {font-family: Arial}" & @CR
+            $shtml &= "td {padding:6px}</style>" & @CR
+            $shtml &= "</head>" & @CR
+            $shtml &= "<body>" & @CR
+            $shtml &= "<table border=1 id=""table1"" style=""width:600px;border-spacing:6px;"">" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<h1>Welcome to IE.au3</h1>" & @CR
+            $shtml &= "IE.au3 is a UDF (User Defined Function) library for the " & @CR
+            $shtml &= "<a href=""http://www.autoitscript.com"">AutoIt</a> scripting language." & @CR
+            $shtml &= "<br>  " & @CR
+            $shtml &= "IE.au3 allows you to either create or attach to an Internet Explorer browser and do " & @CR
+            $shtml &= "just about anything you could do with it interactively with the mouse and " & @CR
+            $shtml &= "keyboard, but do it through script." & @CR
+            $shtml &= "<br>" & @CR
+            $shtml &= "You can navigate to pages, click links, fill and submit forms etc. You can " & @CR
+            $shtml &= "also do things you cannot do interactively like change or rewrite page " & @CR
+            $shtml &= "content and JavaScripts, read, parse and save page content and monitor and act " & @CR
+            $shtml &= "upon browser ""events"".<br>" & @CR
+            $shtml &= "IE.au3 uses the COM interface in AutoIt to interact with the Internet Explorer " & @CR
+            $shtml &= "object model and the DOM (Document Object Model) supported by the browser." & @CR
+            $shtml &= "<br>" & @CR
+            $shtml &= "Here are some links for more information and helpful tools:<br>" & @CR
+            $shtml &= "Reference Material: " & @CR
+            $shtml &= "<ul>" & @CR
+            $shtml &= "<li><a href=""http://msdn1.microsoft.com/"">MSDN (Microsoft Developer Network)</a></li>" & @CR
+            $shtml &= "<li><a href=""http://msdn2.microsoft.com/en-us/library/aa752084.aspx"" target=""_blank"">InternetExplorer Object</a></li>" & @CR
+            $shtml &= "<li><a href=""http://msdn2.microsoft.com/en-us/library/ms531073.aspx"" target=""_blank"">Document Object</a></li>" & @CR
+            $shtml &= "<li><a href=""http://msdn2.microsoft.com/en-us/ie/aa740473.aspx"" target=""_blank"">Overviews and Tutorials</a></li>" & @CR
+            $shtml &= "<li><a href=""http://msdn2.microsoft.com/en-us/library/ms533029.aspx"" target=""_blank"">DHTML Objects</a></li>" & @CR
+            $shtml &= "<li><a href=""http://msdn2.microsoft.com/en-us/library/ms533051.aspx"" target=""_blank"">DHTML Events</a></li>" & @CR
+            $shtml &= "</ul><br>" & @CR
+            $shtml &= "Helpful Tools: " & @CR
+            $shtml &= "<ul>" & @CR
+            $shtml &= "<li><a href=""http://www.autoitscript.com/forum/index.php?showtopic=19368"" target=""_blank"">AutoIt IE Builder</a> (build IE scripts interactively)</li>" & @CR
+            $shtml &= "<li><a href=""http://www.debugbar.com/"" target=""_blank"">DebugBar</a> (DOM inspector, HTTP inspector, HTML validator and more - free for personal use) Recomme" & _
+                "nded</li>" & @CR
+            $shtml &= "<li><a href=""http://www.microsoft.com/downloads/details.aspx?FamilyID=e59c3964-672d-4511-bb3e-2d5e1db91038&amp;displaylang=en"" target=""_blank"">IE Developer " & _
+                "Toolbar</a> (comprehensive DOM analysis tool)</li>" & @CR
+            $shtml &= "<li><a href=""http://slayeroffice.com/tools/modi/v2.0/modi_help.html"" target=""_blank"">MODIV2</a> (view the DOM of a web page by mousing around)</li>" & @CR
+            $shtml &= "<li><a href=""http://validator.w3.org/"" target=""_blank"">HTML Validator</a> (verify HTML follows format rules)</li>" & @CR
+            $shtml &= "<li><a href=""http://www.fiddlertool.com/fiddler/"" target=""_blank"">Fiddler</a> (examine HTTP traffic)</li>" & @CR
+            $shtml &= "</ul>" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "</table>" & @CR
+            $shtml &= "</body>" & @CR
+            $shtml &= "</html>"
+        Case Else
+            __IEConsoleWriteError("Error", "_IE_Introduction", "$_IESTATUS_InvalidValue")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x1, 0x0)
+        EndSwitch
+        Local $oobject = _IECreate()
+        _IEDocWriteHTML($oobject, $shtml)
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject)
+    EndFunc    ; -> _IE_Introduction
+
+    Func _IE_Example($smodule = "basic")
+        Local $shtml = '', $oobject
+        Switch $smodule
+        Case "basic"
+            $shtml &= "<!DOCTYPE html>" & @CR
+            $shtml &= "<html>" & @CR
+            $shtml &= "<head>" & @CR
+            $shtml &= "<meta content=""text/html; charset=UTF-8"" http-equiv=""content-type"">" & @CR
+            $shtml &= "<title>_IE_Example(""basic"")</title>" & @CR
+            $shtml &= "<style>body {font-family: Arial}</style>" & @CR
+            $shtml &= "</head>" & @CR
+            $shtml &= "<body>" & @CR
+            $shtml &= "<a href=""http://www.autoitscript.com""><img src=""http://www.autoitscript.com/images/logo_autoit_210x72.png"" id=""AutoItImage"" alt=""AutoIt Homepage Image"" " & _
+                "style=""background: #204080;""></a>" & @CR
+            $shtml &= "<p></p>" & @CR
+            $shtml &= "<div id=""line1"">This is a simple HTML page with text, links and images.</div>" & @CR
+            $shtml &= "<br>" & @CR
+            $shtml &= "<div id=""line2""><a href=""http://www.autoitscript.com"">AutoIt</a> is a wonderful automation scripting language.</div>" & @CR
+            $shtml &= "<br>" & @CR
+            $shtml &= "<div id=""line3"">It is supported by a very active and supporting <a href=""http://www.autoitscript.com/forum/"">user forum</a>.</div>" & @CR
+            $shtml &= "<br>" & @CR
+            $shtml &= "<div id=""IEAu3Data""></div>" & @CR
+            $shtml &= "</body>" & @CR
+            $shtml &= "</html>"
+            $oobject = _IECreate()
+            _IEDocWriteHTML($oobject, $shtml)
+        Case "table"
+            $shtml &= "<!DOCTYPE html>" & @CR
+            $shtml &= "<html>" & @CR
+            $shtml &= "<head>" & @CR
+            $shtml &= "<meta content=""text/html; charset=utf-8"" http-equiv=""content-type"">" & @CR
+            $shtml &= "<title>_IE_Example(""table"")</title>" & @CR
+            $shtml &= "<style>body {font-family: Arial}</style>" & @CR
+            $shtml &= "</head>" & @CR
+            $shtml &= "<body>" & @CR
+            $shtml &= "$oTableOne = _IETableGetObjByName($oIE, ""tableOne"")<br>" & @CR
+            $shtml &= "&lt;table border=1 id=""tableOne""&gt;<br>" & @CR
+            $shtml &= "<table border=1 id=""tableOne"">" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>AutoIt</td>" & @CR
+            $shtml &= "\t\t<td>is</td>" & @CR
+            $shtml &= "\t\t<td>really</td>" & @CR
+            $shtml &= "\t\t<td>great</td>" & @CR
+            $shtml &= "\t\t<td>with</td>" & @CR
+            $shtml &= "\t\t<td>IE.au3</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>1</td>" & @CR
+            $shtml &= "\t\t<td>2</td>" & @CR
+            $shtml &= "\t\t<td>3</td>" & @CR
+            $shtml &= "\t\t<td>4</td>" & @CR
+            $shtml &= "\t\t<td>5</td>" & @CR
+            $shtml &= "\t\t<td>6</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>the</td>" & @CR
+            $shtml &= "\t\t<td>quick</td>" & @CR
+            $shtml &= "\t\t<td>red</td>" & @CR
+            $shtml &= "\t\t<td>fox</td>" & @CR
+            $shtml &= "\t\t<td>jumped</td>" & @CR
+            $shtml &= "\t\t<td>over</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>the</td>" & @CR
+            $shtml &= "\t\t<td>lazy</td>" & @CR
+            $shtml &= "\t\t<td>brown</td>" & @CR
+            $shtml &= "\t\t<td>dog</td>" & @CR
+            $shtml &= "\t\t<td>the</td>" & @CR
+            $shtml &= "\t\t<td>time</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>has</td>" & @CR
+            $shtml &= "\t\t<td>come</td>" & @CR
+            $shtml &= "\t\t<td>for</td>" & @CR
+            $shtml &= "\t\t<td>all</td>" & @CR
+            $shtml &= "\t\t<td>good</td>" & @CR
+            $shtml &= "\t\t<td>men</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>to</td>" & @CR
+            $shtml &= "\t\t<td>come</td>" & @CR
+            $shtml &= "\t\t<td>to</td>" & @CR
+            $shtml &= "\t\t<td>the</td>" & @CR
+            $shtml &= "\t\t<td>aid</td>" & @CR
+            $shtml &= "\t\t<td>of</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "</table>" & @CR
+            $shtml &= "<br>" & @CR
+            $shtml &= "$oTableTwo = _IETableGetObjByName($oIE, ""tableTwo"")<br>" & @CR
+            $shtml &= "&lt;table border=""1"" id=""tableTwo""&gt;<br>" & @CR
+            $shtml &= "<table border=1 id=""tableTwo"">" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td colspan=""4"">Table Top</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>One</td>" & @CR
+            $shtml &= "\t\t<td colspan=""3"">Two</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>Three</td>" & @CR
+            $shtml &= "\t\t<td>Four</td>" & @CR
+            $shtml &= "\t\t<td colspan=""2"">Five</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>Six</td>" & @CR
+            $shtml &= "\t\t<td colspan=""3"">Seven</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "\t<tr>" & @CR
+            $shtml &= "\t\t<td>Eight</td>" & @CR
+            $shtml &= "\t\t<td>Nine</td>" & @CR
+            $shtml &= "\t\t<td>Ten</td>" & @CR
+            $shtml &= "\t\t<td>Eleven</td>" & @CR
+            $shtml &= "\t</tr>" & @CR
+            $shtml &= "</table>" & @CR
+            $shtml &= "</body>" & @CR
+            $shtml &= "</html>"
+            $oobject = _IECreate()
+            _IEDocWriteHTML($oobject, $shtml)
+        Case "form"
+            $shtml &= "<!DOCTYPE html>" & @CR
+            $shtml &= "<html>" & @CR
+            $shtml &= "<head>" & @CR
+            $shtml &= "<meta content=""text/html; charset=UTF-8"" http-equiv=""content-type"">" & @CR
+            $shtml &= "<title>_IE_Example(""form"")</title>" & @CR
+            $shtml &= "<style>body {font-family: Arial}" & @CR
+            $shtml &= "td {padding:6px}</style>" & @CR
+            $shtml &= "</head>" & @CR
+            $shtml &= "<body>" & @CR
+            $shtml &= "<form name=""ExampleForm"" onSubmit=""javascript:alert('ExampleFormSubmitted');"" method=""post"">" & @CR
+            $shtml &= "<table style=""border-spacing:6px 6px;"" border=1>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>ExampleForm</td>" & @CR
+            $shtml &= "<td>&lt;form name=""ExampleForm"" onSubmit=""javascript:alert('ExampleFormSubmitted');"" method=""post""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>Hidden Input Element<input type=""hidden"" name=""hiddenExample"" value=""secret value""></td>" & @CR
+            $shtml &= "<td>&lt;input type=""hidden"" name=""hiddenExample"" value=""secret value""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<input type=""text"" name=""textExample"" value=""http://"" size=""20"" maxlength=""30"">" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;input type=""text"" name=""textExample"" value=""http://"" size=""20"" maxlength=""30""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<input type=""password"" name=""passwordExample"" size=""10"">" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;input type=""password"" name=""passwordExample"" size=""10""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<input type=""file"" name=""fileExample"">" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;input type=""file"" name=""fileExample""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<input type=""image"" name=""imageExample"" alt=""AutoIt Homepage"" src=""http://www.autoitscript.com/images/logo_autoit_210x72.png"" style=""background: #20408" & _
+                "0;>" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;input type=""image"" name=""imageExample"" alt=""AutoIt Homepage"" src=""http://www.autoitscript.com/images/logo_autoit_210x72.png""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<textarea name=""textareaExample"" rows=""5"" cols=""15"">Hello!</textarea>" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;textarea name=""textareaExample"" rows=""5"" cols=""15""&gt;Hello!&lt;/textarea&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<input type=""checkbox"" name=""checkboxG1Example"" value=""gameBasketball"">Basketball<br>" & @CR
+            $shtml &= "<input type=""checkbox"" name=""checkboxG1Example"" value=""gameFootball"">Football<br>" & @CR
+            $shtml &= "<input type=""checkbox"" name=""checkboxG2Example"" value=""gameTennis"" checked>Tennis<br>" & @CR
+            $shtml &= "<input type=""checkbox"" name=""checkboxG2Example"" value=""gameBaseball"">Baseball" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;input type=""checkbox"" name=""checkboxG1Example"" value=""gameBasketball""&gt;Basketball&lt;br&gt;<br>" & @CR
+            $shtml &= "&lt;input type=""checkbox"" name=""checkboxG1Example"" value=""gameFootball""&gt;Football&lt;br&gt;<br>" & @CR
+            $shtml &= "&lt;input type=""checkbox"" name=""checkboxG2Example"" value=""gameTennis"" checked&gt;Tennis&lt;br&gt;<br>" & @CR
+            $shtml &= "&lt;input type=""checkbox"" name=""checkboxG2Example"" value=""gameBaseball""&gt;Baseball</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<input type=""radio"" name=""radioExample"" value=""vehicleAirplane"">Airplane<br>" & @CR
+            $shtml &= "<input type=""radio"" name=""radioExample"" value=""vehicleTrain"" checked>Train<br>" & @CR
+            $shtml &= "<input type=""radio"" name=""radioExample"" value=""vehicleBoat"">Boat<br>" & @CR
+            $shtml &= "<input type=""radio"" name=""radioExample"" value=""vehicleCar"">Car</td>" & @CR
+            $shtml &= "<td>&lt;input type=""radio"" name=""radioExample"" value=""vehicleAirplane""&gt;Airplane&lt;br&gt;<br>" & @CR
+            $shtml &= "&lt;input type=""radio"" name=""radioExample"" value=""vehicleTrain"" checked&gt;Train&lt;br&gt;<br>" & @CR
+            $shtml &= "&lt;input type=""radio"" name=""radioExample"" value=""vehicleBoat""&gt;Boat&lt;br&gt;<br>" & @CR
+            $shtml &= "&lt;input type=""radio"" name=""radioExample"" value=""vehicleCar""&gt;Car&lt;br&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<select name=""selectExample"">" & @CR
+            $shtml &= "<option value=""homepage.html"">Homepage" & @CR
+            $shtml &= "<option value=""midipage.html"">Midipage" & @CR
+            $shtml &= "<option value=""freepage.html"">Freepage" & @CR
+            $shtml &= "</select>" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;select name=""selectExample""&gt;<br>" & @CR
+            $shtml &= "&lt;option value=""homepage.html""&gt;Homepage<br>" & @CR
+            $shtml &= "&lt;option value=""midipage.html""&gt;Midipage<br>" & @CR
+            $shtml &= "&lt;option value=""freepage.html""&gt;Freepage<br>" & @CR
+            $shtml &= "&lt;/select&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<select name=""multipleSelectExample"" size=""6"" multiple>" & @CR
+            $shtml &= "<option value=""Name1"">Aaron" & @CR
+            $shtml &= "<option value=""Name2"">Bruce" & @CR
+            $shtml &= "<option value=""Name3"">Carlos" & @CR
+            $shtml &= "<option value=""Name4"">Denis" & @CR
+            $shtml &= "<option value=""Name5"">Ed" & @CR
+            $shtml &= "<option value=""Name6"">Freddy" & @CR
+            $shtml &= "</select>" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;select name=""multipleSelectExample"" size=""6"" multiple&gt;<br>" & @CR
+            $shtml &= "&lt;option value=""Name1""&gt;Aaron<br>" & @CR
+            $shtml &= "&lt;option value=""Name2""&gt;Bruce<br>" & @CR
+            $shtml &= "&lt;option value=""Name3""&gt;Carlos<br>" & @CR
+            $shtml &= "&lt;option value=""Name4""&gt;Denis<br>" & @CR
+            $shtml &= "&lt;option value=""Name5""&gt;Ed<br>" & @CR
+            $shtml &= "&lt;option value=""Name6""&gt;Freddy<br>" & @CR
+            $shtml &= "&lt;/select&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td>" & @CR
+            $shtml &= "<input name=""submitExample"" type=""submit"" value=""Submit"">" & @CR
+            $shtml &= "<input name=""resetExample"" type=""reset"" value=""Reset"">" & @CR
+            $shtml &= "</td>" & @CR
+            $shtml &= "<td>&lt;input name=""submitExample"" type=""submit"" value=""Submit""&gt;<br>" & @CR
+            $shtml &= "&lt;input name=""resetExample"" type=""reset"" value=""Reset""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "</table>" & @CR
+            $shtml &= "<input type=""hidden"" name=""hiddenExample"" value=""secret value"">" & @CR
+            $shtml &= "</form>" & @CR
+            $shtml &= "</body>" & @CR
+            $shtml &= "</html>"
+            $oobject = _IECreate()
+            _IEDocWriteHTML($oobject, $shtml)
+        Case "frameset"
+            $shtml &= "<!DOCTYPE html>" & @CR
+            $shtml &= "<html>" & @CR
+            $shtml &= "<head>" & @CR
+            $shtml &= "<meta content=""text/html; charset=UTF-8"" http-equiv=""content-type"">" & @CR
+            $shtml &= "<title>_IE_Example(""frameset"")</title>" & @CR
+            $shtml &= "</head>" & @CR
+            $shtml &= "<frameset rows=""25,200"">" & @CR
+            $shtml &= "\t<frame name=Top SRC=about:blank>" & @CR
+            $shtml &= "\t<frameset cols=""100,500"">" & @CR
+            $shtml &= "\t\t<frame name=Menu SRC=about:blank>" & @CR
+            $shtml &= "\t\t<frame name=Main SRC=about:blank>" & @CR
+            $shtml &= "\t</frameset>" & @CR
+            $shtml &= "</frameset>" & @CR
+            $shtml &= "</html>"
+            $oobject = _IECreate()
+            _IEDocWriteHTML($oobject, $shtml)
+            _IEAction($oobject, "refresh")
+            Local $oframetop = _IEFrameGetObjByName($oobject, "Top")
+            Local $oframemenu = _IEFrameGetObjByName($oobject, "Menu")
+            Local $oframemain = _IEFrameGetObjByName($oobject, "Main")
+            _IEBodyWriteHTML($oframetop, "$oFrameTop = _IEFrameGetObjByName($oIE, ""Top"")")
+            _IEBodyWriteHTML($oframemenu, "$oFrameMenu = _IEFrameGetObjByName($oIE, ""Menu"")")
+            _IEBodyWriteHTML($oframemain, "$oFrameMain = _IEFrameGetObjByName($oIE, ""Main"")")
+        Case "iframe"
+            $shtml &= "<!DOCTYPE html>" & @CR
+            $shtml &= "<html>" & @CR
+            $shtml &= "<head>" & @CR
+            $shtml &= "<meta content=""text/html; charset=UTF-8"" http-equiv=""content-type"">" & @CR
+            $shtml &= "<title>_IE_Example(""iframe"")</title>" & @CR
+            $shtml &= "<style>td {padding:6px}</style>" & @CR
+            $shtml &= "</head>" & @CR
+            $shtml &= "<body>" & @CR
+            $shtml &= "<table style=""border-spacing:6px"" border=1>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td><iframe name=""iFrameOne"" src=""about:blank"" title=""iFrameOne""></iframe></td>" & @CR
+            $shtml &= "<td>&lt;iframe name=""iFrameOne"" src=""about:blank"" title=""iFrameOne""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "<tr>" & @CR
+            $shtml &= "<td><iframe name=""iFrameTwo"" src=""about:blank"" title=""iFrameTwo""></iframe></td>" & @CR
+            $shtml &= "<td>&lt;iframe name=""iFrameTwo"" src=""about:blank"" title=""iFrameTwo""&gt;</td>" & @CR
+            $shtml &= "</tr>" & @CR
+            $shtml &= "</table>" & @CR
+            $shtml &= "</body>" & @CR
+            $shtml &= "</html>"
+            $oobject = _IECreate()
+            _IEDocWriteHTML($oobject, $shtml)
+            _IEAction($oobject, "refresh")
+            Local $oiframeone = _IEFrameGetObjByName($oobject, "iFrameOne")
+            Local $oiframetwo = _IEFrameGetObjByName($oobject, "iFrameTwo")
+            _IEBodyWriteHTML($oiframeone, "$oIFrameOne = _IEFrameGetObjByName($oIE, ""iFrameOne"")")
+            _IEBodyWriteHTML($oiframetwo, "$oIFrameTwo = _IEFrameGetObjByName($oIE, ""iFrameTwo"")")
+        Case Else
+            __IEConsoleWriteError("Error", "_IE_Example", "$_IESTATUS_InvalidValue")
+            Return SetError($_IESTATUS_INVALIDVALUE, 0x1, 0x0)
+        EndSwitch
+        Sleep(0x1f4)
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject)
+    EndFunc    ; -> _IE_Example
+
+    Func _IE_VersionInfo()
+        __IEConsoleWriteError("Information", "_IE_VersionInfo", "version " & $__GAIEAU3VERSIONINFO[0x0] & $__GAIEAU3VERSIONINFO[0x1] & "." & $__GAIEAU3VERSIONINFO[0x2] & "-" & $__GAIEAU3VERSIONINFO[0x3], "Release date: " & $__GAIEAU3VERSIONINFO[0x4])
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $__GAIEAU3VERSIONINFO)
+    EndFunc    ; -> _IE_VersionInfo
+
+#EndRegion General
+#Region Internal functions
+    Func __IELockSetForegroundWindow($ilockcode)
+        Local $aret = DllCall("user32.dll", "bool", "LockSetForegroundWindow", "uint", $ilockcode)
+        If @error Or Not $aret[0x0] Then Return SetError(0x1, _WinAPI_GetLastError(), 0x0)
+        Return $aret[0x0]
+    EndFunc    ; -> __IELockSetForegroundWindow
+
+    Func __IEControlGetObjFromHWND(ByRef $hwin)
+        DllCall("ole32.dll", "long", "CoInitialize", "ptr", 0x0)
+        If @error Then Return SetError(0x2, @error, 0x0)
+        Local Const $WM_HTML_GETOBJECT = __IERegisterWindowMessage("WM_HTML_GETOBJECT")
+        Local Const $SMTO_ABORTIFHUNG = 0x2
+        Local $iresult
+        __IESendMessageTimeout($hwin, $WM_HTML_GETOBJECT, 0x0, 0x0, $SMTO_ABORTIFHUNG, 0x3e8, $iresult)
+        Local $tuuid = DllStructCreate("int;short;short;byte[8]")
+        DllStructSetData($tuuid, 0x1, 0x626fc520)
+        DllStructSetData($tuuid, 0x2, 0xa41e)
+        DllStructSetData($tuuid, 0x3, 0x11cf)
+        DllStructSetData($tuuid, 0x4, 0xa7, 0x1)
+        DllStructSetData($tuuid, 0x4, 0x31, 0x2)
+        DllStructSetData($tuuid, 0x4, 0x0, 0x3)
+        DllStructSetData($tuuid, 0x4, 0xa0, 0x4)
+        DllStructSetData($tuuid, 0x4, 0xc9, 0x5)
+        DllStructSetData($tuuid, 0x4, 0x8, 0x6)
+        DllStructSetData($tuuid, 0x4, 0x26, 0x7)
+        DllStructSetData($tuuid, 0x4, 0x37, 0x8)
+        Local $aret = DllCall("oleacc.dll", "long", "ObjectFromLresult", "lresult", $iresult, "struct*", $tuuid, "wparam", 0x0, "idispatch*", 0x0)
+        If @error Then Return SetError(0x3, @error, 0x0)
+        If IsObj($aret[0x4]) Then
+            Local $oie = $aret[0x4].Script()
+            Return $oie.Document.parentwindow
+        Else
+            Return SetError(0x1, $aret[0x0], 0x0)
+        EndIf
+    EndFunc    ; -> __IEControlGetObjFromHWND
+
+    Func __IERegisterWindowMessage($smsg)
+        Local $aret = DllCall("user32.dll", "uint", "RegisterWindowMessageW", "wstr", $smsg)
+        If @error Then Return SetError(@error, @extended, 0x0)
+        If $aret[0x0] = 0x0 Then Return SetError(0xa, _WinAPI_GetLastError(), 0x0)
+        Return $aret[0x0]
+    EndFunc    ; -> __IERegisterWindowMessage
+
+    Func __IESendMessageTimeout($hwnd, $imsg, $wparam, $lparam, $iflags, $itimeout, ByRef $vout, $r = 0x0, $st1 = "int", $st2 = "int")
+        Local $aret = DllCall("user32.dll", "lresult", "SendMessageTimeout", "hwnd", $hwnd, "uint", $imsg, $st1, $wparam, $st2, $lparam, "uint", $iflags, "uint", $itimeout, "dword_ptr*", '')
+        If @error Or $aret[0x0] = 0x0 Then
+            $vout = 0x0
+            Return SetError(0x1, _WinAPI_GetLastError(), 0x0)
+        EndIf
+        $vout = $aret[0x7]
+        If $r >= 0x0 And $r <= 0x4 Then Return $aret[$r]
+        Return $aret
+    EndFunc    ; -> __IESendMessageTimeout
+
+    Func __IEIsObjType(ByRef $oobject, $stype, $bregister = True)
+        If Not IsObj($oobject) Then
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        Local $bstatus = $bregister
+        If $bregister Then
+            $bstatus = __IEInternalErrorHandlerRegister()
+            If Not $bstatus Then __IEConsoleWriteError("Warning", "internal function __IEIsObjType", "Cannot register internal error handler, cannot trap COM errors", "Use _IEErrorHandlerRegister() to register a user error handler")
+        EndIf
+        Local $inotifystatus = _IEErrorNotify()
+        _IEErrorNotify(False)
+        Local $sname = String(ObjName($oobject)), $ierrorstatus = $_IESTATUS_INVALIDOBJECTTYPE
+        Switch $stype
+        Case "browserdom"
+            If __IEIsObjType($oobject, "documentcontainer", False) Then
+                $ierrorstatus = $_IESTATUS_SUCCESS
+            ElseIf __IEIsObjType($oobject, "document", False) Then
+                $ierrorstatus = $_IESTATUS_SUCCESS
+            Else
+                Local $otemp = $oobject.document
+                If __IEIsObjType($otemp, "document", False) Then
+                    $ierrorstatus = $_IESTATUS_SUCCESS
+                EndIf
+            EndIf
+        Case "browser"
+            If ($sname = "IWebBrowser2") Or ($sname = "IWebBrowser") Or ($sname = "WebBrowser") Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "window"
+            If $sname = "HTMLWindow2" Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "documentContainer"
+            If __IEIsObjType($oobject, "window", False) Or __IEIsObjType($oobject, "browser", False) Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "document"
+            If $sname = "HTMLDocument" Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "table"
+            If $sname = "HTMLTable" Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "form"
+            If $sname = "HTMLFormElement" Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "forminputelement"
+            If ($sname = "HTMLInputElement") Or ($sname = "HTMLSelectElement") Or ($sname = "HTMLTextAreaElement") Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "elementcollection"
+            If ($sname = "HTMLElementCollection") Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case "formselectelement"
+            If $sname = "HTMLSelectElement" Then $ierrorstatus = $_IESTATUS_SUCCESS
+        Case Else
+            $ierrorstatus = $_IESTATUS_INVALIDVALUE
+        EndSwitch
+        _IEErrorNotify($inotifystatus)
+        If $bregister Then
+            __IEInternalErrorHandlerDeRegister()
+        EndIf
+        If $ierrorstatus = $_IESTATUS_SUCCESS Then
+            Return SetError($_IESTATUS_SUCCESS, 0x0, 0x1)
+        Else
+            Return SetError($ierrorstatus, 0x1, 0x0)
+        EndIf
+    EndFunc    ; -> __IEIsObjType
+
+    Func __IEConsoleWriteError($sseverity, $sfunc, $smessage = Default, $sstatus = Default)
+        If $__g_bieerrornotify Or $__g_bieau3debug Then
+            Local $sstr = "--> IE.au3 " & $__GAIEAU3VERSIONINFO[0x5] & " " & $sseverity & " from function " & $sfunc
+            If Not ($smessage = Default) Then $sstr &= ", " & $smessage
+            If Not ($sstatus = Default) Then $sstr &= " (" & $sstatus & ")"
+            ConsoleWrite($sstr & @CRLF)
+        EndIf
+        Return SetError($sstatus, 0x0, 0x1)
+    EndFunc    ; -> __IEConsoleWriteError
+
+    Func __IEComErrorUnrecoverable($ierror)
+        Switch $ierror
+        Case + -2147352567
+            Return $_IESTATUS_ACCESSISDENIED
+        Case + -2147024891
+            Return $_IESTATUS_ACCESSISDENIED
+        Case + -2147417848
+            Return $_IESTATUS_CLIENTDISCONNECTED
+        Case + -2147023174
+            Return $_IESTATUS_CLIENTDISCONNECTED
+        Case + -2147023179
+            Return $_IESTATUS_CLIENTDISCONNECTED
+        Case Else
+            Return $_IESTATUS_SUCCESS
+        EndSwitch
+    EndFunc    ; -> __IEComErrorUnrecoverable
+
+#EndRegion Internal functions
+#Region ProtoType Functions
+    Func __IENavigate(ByRef $oobject, $surl, $iwait = 0x1, $ifags = 0x0, $starget = '', $spostdata = '', $sheaders = '')
+        __IEConsoleWriteError("Warning", "__IENavigate", "Unsupported function called. Not fully tested.")
+        If Not IsObj($oobject) Then
+            __IEConsoleWriteError("Error", "__IENavigate", "$_IESTATUS_InvalidDataType")
+            Return SetError($_IESTATUS_INVALIDDATATYPE, 0x1, 0x0)
+        EndIf
+        If Not __IEIsObjType($oobject, "documentContainer") Then
+            __IEConsoleWriteError("Error", "__IENavigate", "$_IESTATUS_InvalidObjectType")
+            Return SetError($_IESTATUS_INVALIDOBJECTTYPE, 0x1, 0x0)
+        EndIf
+        $oobject.navigate($surl, $ifags, $starget, $spostdata, $sheaders)
+        If $iwait Then
+            _IELoadWait($oobject)
+            Return SetError(@error, 0x0, $oobject)
+        EndIf
+        Return SetError($_IESTATUS_SUCCESS, 0x0, $oobject)
+    EndFunc    ; -> __IENavigate
+
+    Func __IEStringToBstr($sstring, $scharset = "us-ascii")
+        Local Const $ITYPEBINARY = 0x1, $ITYPETEXT = 0x2
+        Local $ostream = ObjCreate("ADODB.Stream")
+        $ostream.type = $ITYPETEXT
+        $ostream.CharSet = $scharset
+        $ostream.Open
+        $ostream.WriteText($sstring)
+        $ostream.Position = 0x0
+        $ostream.type = $ITYPEBINARY
+        $ostream.Position = 0x0
+        Return $ostream.Read()
+    EndFunc    ; -> __IEStringToBstr
+
+    Func __IEBstrToString($obstr, $scharset = "us-ascii")
+        Local Const $ITYPEBINARY = 0x1, $ITYPETEXT = 0x2
+        Local $ostream = ObjCreate("ADODB.Stream")
+        $ostream.type = $ITYPEBINARY
+        $ostream.Open
+        $ostream.Write($obstr)
+        $ostream.Position = 0x0
+        $ostream.type = $ITYPETEXT
+        $ostream.CharSet = $scharset
+        $ostream.Position = 0x0
+        Return $ostream.ReadText()
+    EndFunc    ; -> __IEBstrToString
+
+    Func __IECreateNewIE($stitle, $shead = '', $sbody = '')
+        Local $stemp = __IETempFile('', "~IE~", ".htm")
+        If @error Then
+            __IEConsoleWriteError("Error", "_IECreateHTA", '', "Error creating temporary file in @TempDir or @ScriptDir")
+            Return SetError($_IESTATUS_GENERALERROR, 0x1, 0x0)
+        EndIf
+        Local $shtml = ''
+        $shtml &= "<!DOCTYPE html>" & @CR
+        $shtml &= "<html>" & @CR
+        $shtml &= "<head>" & @CR
+        $shtml &= "<meta content=""text/html; charset=UTF-8"" http-equiv=""content-type"">" & @CR
+        $shtml &= "<title>" & $stemp & "</title>" & @CR & $shead & @CR
+        $shtml &= "</head>" & @CR
+        $shtml &= "<body>" & @CR & $sbody & @CR
+        $shtml &= "</body>" & @CR
+        $shtml &= "</html>"
+        Local $hfile = FileOpen($stemp, $FO_OVERWRITE)
+        FileWrite($hfile, $shtml)
+        FileClose($hfile)
+        If @error Then
+            __IEConsoleWriteError("Error", "_IECreateNewIE", '', "Error creating temporary file in @TempDir or @ScriptDir")
+            Return SetError($_IESTATUS_GENERALERROR, 0x2, 0x0)
+        EndIf
+        Run(@ProgramFilesDir & "\\Internet Explorer\\iexplore.exe " & $stemp)
+        Local $ipid
+        If WinWait($stemp, '', 0x3c) Then
+            $ipid = WinGetProcess($stemp)
+        Else
+            __IEConsoleWriteError("Error", "_IECreateNewIE", '', "Timeout waiting for new IE window creation")
+            Return SetError($_IESTATUS_GENERALERROR, 0x3, 0x0)
+        EndIf
+        If Not FileDelete($stemp) Then
+            __IEConsoleWriteError("Warning", "_IECreateNewIE", '', "Could not delete temporary file " & FileGetLongName($stemp))
+        EndIf
+        Local $oobject = _IEAttach($stemp)
+        _IELoadWait($oobject)
+        _IEPropertySet($oobject, "title", $stitle)
+        Return SetError($_IESTATUS_SUCCESS, $ipid, $oobject)
+    EndFunc    ; -> __IECreateNewIE
+
+    Func __IETempFile($sdirectoryname = @TempDir, $sfileprefix = "~", $sfileextension = ".tmp", $irandomlength = 0x7)
+        Local $stempname, $itmp = 0x0
+        If Not FileExists($sdirectoryname) Then $sdirectoryname = @TempDir
+        If Not FileExists($sdirectoryname) Then $sdirectoryname = @ScriptDir
+        If StringRight($sdirectoryname, 0x1) <> "\\" Then $sdirectoryname = $sdirectoryname & "\\"
+        Do
+            $stempname = ''
+            While StringLen($stempname) < $irandomlength
+                $stempname = $stempname & Chr(Random(0x61, 0x7a, 0x1))
+            WEnd
+            $stempname = $sdirectoryname & $sfileprefix & $stempname & $sfileextension
+            $itmp += 0x1
+            If $itmp > 0xc8 Then
+                Return SetError($_IESTATUS_GENERALERROR, 0x1, 0x0)
+            EndIf
+        Until Not FileExists($stempname)
+        Return $stempname
+    EndFunc    ; -> __IETempFile
+
+#EndRegion ProtoType Functions
+Local $fuck = "hi ""world"" of"
+Local $fuck = "hi ""world"" of"
+Local $fuck = "hi 'world' of"
+Local $fuck = "hi ""world"" of"
+Local $fuck = "hi 'hiiii' world"
