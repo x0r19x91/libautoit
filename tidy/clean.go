@@ -258,59 +258,61 @@ func (pp *indentInfo) Tidy() string {
             pp.buf += " "
         }
 
-        if pp.currToken.TokType == lexer.Identifier {
-            pp.currToken.Value = identSet[strings.ToLower(pp.currToken.Value)]
-        }
-        if pp.currToken.TokType == lexer.StrLit {
-            // split into chunks of 80 bytes per line
-            // "chunk[0]" & _
-            // "chunk[1]" & _
-            // "chunk[2]" & _
-            // ...
-            // "chunk[n-1]"
-            vv := ""
-            rwStr := pp.currToken.Value[1 : len(pp.currToken.Value)-1]
-            var chunks []string
-            i := 0
-            for ; i < len(rwStr); i += pp.strLitSize {
-                size := i + pp.strLitSize
-                if size > len(rwStr) {
-                    size = len(rwStr)
-                }
-                chunks = append(chunks, rwStr[i:size])
-            }
-            for i = 0; i < len(chunks)-1; i++ {
-                pp.Inc()
-                vv += "\"" + chunks[i] + "\" & _\n" + pp.pad()
-                pp.Dec()
-            }
-            if len(chunks) > 0 {
-                vv += "\"" + chunks[len(chunks)-1] + "\""
-            }
-            if len(vv) == 0 {
-                vv = "\"\""
-            }
-            pp.currToken.Value = vv
-        }
-        if pp.currToken.TokType == lexer.UserFunction ||
-            pp.currToken.TokType == lexer.StdFunction {
-            ttok := pp.currToken
-            if (pp.identCase != AllUpper) &&
-                ttok.TokType == lexer.UserFunction &&
-                strings.ToUpper(ttok.Value) == ttok.Value {
-                ttok.Value = strings.ToLower(ttok.Value)
-            }
-            if pp.iStateFuncCmt == 1 && pp.fnEndCmt {
-                pp.currFunc = pp.currToken.Value
-                pp.iStateFuncCmt = 2
-            }
-        }
-        pp.buf += pp.currToken.Value
-        if !pp.currToken.TokType.IsOpenBracket() &&
-            !pp.currToken.TokType.IsCloseBracket() &&
-            pp.currToken.TokType != lexer.OpStructRef {
-            pp.buf += " "
-        }
-    }
-    return pp.lines.String()
+		if pp.currToken.TokType == lexer.Identifier {
+			pp.currToken.Value = identSet[strings.ToLower(pp.currToken.Value)]
+		}
+		if pp.currToken.TokType == lexer.StrLit {
+			// split into chunks of 80 bytes per line
+			// "chunk[0]" & _
+			// "chunk[1]" & _
+			// "chunk[2]" & _
+			// ...
+			// "chunk[n-1]"
+			vv := ""
+			rwStr := pp.currToken.Value[1 : len(pp.currToken.Value)-1]
+			var chunks []string
+			i := 0
+			for ; i < len(rwStr); i += pp.strLitSize {
+				size := i + pp.strLitSize
+				if size > len(rwStr) {
+					size = len(rwStr)
+				}
+				ss := rwStr[i:size]
+				ss = strings.ReplaceAll(ss, "\\\"", "\"\"")
+				chunks = append(chunks, ss)
+			}
+			for i = 0; i < len(chunks)-1; i++ {
+				pp.Inc()
+				vv += "\"" + chunks[i] + "\" & _\n" + pp.pad()
+				pp.Dec()
+			}
+			if len(chunks) > 0 {
+				vv += "\"" + chunks[len(chunks)-1] + "\""
+			}
+			if len(vv) == 0 {
+				vv = "''"
+			}
+			pp.currToken.Value = vv
+		}
+		if pp.currToken.TokType == lexer.UserFunction ||
+			pp.currToken.TokType == lexer.StdFunction {
+			ttok := pp.currToken
+			if (pp.identCase != AllUpper) &&
+				ttok.TokType == lexer.UserFunction &&
+				strings.ToUpper(ttok.Value) == ttok.Value {
+				ttok.Value = strings.ToLower(ttok.Value)
+			}
+			if pp.iStateFuncCmt == 1 && pp.fnEndCmt {
+				pp.currFunc = pp.currToken.Value
+				pp.iStateFuncCmt = 2
+			}
+		}
+		pp.buf += pp.currToken.Value
+		if !pp.currToken.TokType.IsOpenBracket() &&
+			!pp.currToken.TokType.IsCloseBracket() &&
+			pp.currToken.TokType != lexer.OpStructRef {
+			pp.buf += " "
+		}
+	}
+	return pp.lines.String()
 }
