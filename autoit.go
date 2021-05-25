@@ -62,9 +62,11 @@ func GetScripts(data []byte) (*AutoItFile, error) {
 			continue
 		}
 
-		stop := bytes.LastIndex(data[p+0x19:], []byte(subtype)) + p + 0x19
+		stop := bytes.LastIndex(data[p+0x19:], []byte(subtype))
 		if stop == -1 {
 			stop = len(data)
+		} else {
+			stop += p + 0x19
 		}
 		endPos = stop
 		possibleScripts[p] = endPos
