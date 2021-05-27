@@ -1,5 +1,7 @@
 # libautoit
 
+![build](https://img.shields.io/github/workflow/status/x0r19x91/libautoit/Go?style=for-the-badge)
+
 libautoit is a library for extracting and cleaning AutoItv3+ encoded scripts.
 
 * It supports a3x, exe, and even upx packed files.
